@@ -5,7 +5,7 @@
 fp-info-cache
 sym-lib-table
 
-Hardware/*/*-backups/
+Hardware/*-backups/
 
 _autosave*
 #auto_saved_files#
