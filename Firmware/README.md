@@ -1,6 +1,8 @@
-# This is __The Nerd Mage Module Programmer__  Project
+# This is __The Nerd Mage "Universal" USB-C Board__  Project
 
 No actual firmware in this one.
+
+Yet...
 
 Nothing to see here...
 
