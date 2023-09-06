@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a144ce76-cc23-44fb-8108-bf18e64a4c3d)
   )
-  (fp_text value "USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 0 5.1) (layer "F.Fab")
+  (fp_text value "USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 0 5.1) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0ca5cf76-e951-4e58-a402-14dc42a864b3)
   )

@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0e3893c1-7114-4218-ac74-7c7a63ab2ae7)
   )
-  (fp_text value "NerdMage" (at 0 5.08 unlocked) (layer "F.Fab")
+  (fp_text value "NerdMage" (at 0 5.08 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 33fe3922-5a1e-4151-b5e4-c396981c4790)
   )
@@ -22,7 +22,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 94899b2a-f8cc-4519-8dc6-72328af3ffe1)
   )
-  (fp_text user "${REFERENCE}" (at 0 -5.08 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 -5.08 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7c3bda4d-76d6-4d90-8781-7501d5b11b60)
   )

@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -26,18 +26,18 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.55,
-          "width": 0.6
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -45,32 +45,11 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "clearance|84286772|77293725|98adcbdb-2500-434e-ae50-7f1756ef6e92|e5af87ac-c69f-48ef-ae25-cc725069ae12",
-        "clearance|84300000|78094499|04ecd816-b4dd-4e20-a24b-4cd5fdb104c0|e5af87ac-c69f-48ef-ae25-cc725069ae12",
-        "clearance|84400000|78094499|64888ed6-7c5f-4690-8a2d-0bf890242895|e5af87ac-c69f-48ef-ae25-cc725069ae12",
-        "clearance|84534069|78094499|15013912-e364-49ea-b730-a20b61558ccf|e5af87ac-c69f-48ef-ae25-cc725069ae12",
-        "clearance|85670464|77305501|98adcbdb-2500-434e-ae50-7f1756ef6e92|707012e3-178d-4598-b833-8139fbc0fe78",
-        "clearance|85800000|77305501|e156f5c2-8b9e-4108-83b2-2f2cae87a072|707012e3-178d-4598-b833-8139fbc0fe78",
-        "clearance|85800000|78106275|21be2096-ed39-4235-98d1-a036db59e06c|707012e3-178d-4598-b833-8139fbc0fe78",
-        "clearance|85917761|78106275|9d8c4c20-cda7-446d-aa7c-304fbe9f33ae|707012e3-178d-4598-b833-8139fbc0fe78",
-        "clearance|85917762|77305501|9ee3b1aa-4500-428b-ab7c-e955aaf4bfa2|707012e3-178d-4598-b833-8139fbc0fe78",
-        "clearance|87054155|77305501|98adcbdb-2500-434e-ae50-7f1756ef6e92|547fce85-24bb-41a2-8e14-1b33304bdd16",
-        "clearance|87054155|77305501|9ee3b1aa-4500-428b-ab7c-e955aaf4bfa2|547fce85-24bb-41a2-8e14-1b33304bdd16",
-        "clearance|87200000|78106275|90cab113-cd6d-4c9a-9213-2720af51f6ed|547fce85-24bb-41a2-8e14-1b33304bdd16",
-        "clearance|87300000|78106275|5bc82219-7436-49d8-abec-176a2f591b56|547fce85-24bb-41a2-8e14-1b33304bdd16",
-        "clearance|87301452|78106275|2ba369b7-7fef-462e-8c9c-184bfb53bdfa|547fce85-24bb-41a2-8e14-1b33304bdd16"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -119,29 +98,20 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -361,7 +331,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "USB-C Board.kicad_pro",
+    "filename": "Controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -422,15 +392,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
