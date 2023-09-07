@@ -141,7 +141,7 @@
 
   (footprint "Tinker:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (layer "F.Cu")
     (tedit 5B78AD87) (tstamp 2d313876-8b3b-42d0-936b-1b6f776f3725)
-    (at 86.13441 86.8 -90)
+    (at 86 87 -90)
     (descr "JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST SH top entry")
     (property "Sheetfile" "Controller.kicad_sch")
@@ -2713,7 +2713,7 @@
       (net 7 "Vout") (pinfunction "Pin_1") (pintype "passive") (tstamp d36157fa-75c9-4cdf-9c26-eb83c6861e5b))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 34c868c7-e548-4751-a03a-70cdead37678))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2809,7 +2809,7 @@
       (net 7 "Vout") (pinfunction "Pin_1") (pintype "passive") (tstamp 26b411fe-57e5-4e18-aefc-3d80a991b0bb))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp a7cbc4bf-4f51-4999-a53d-3b8022e08a9e))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2856,7 +2856,7 @@
       (net 8 "Vsec") (pinfunction "Pin_1") (pintype "passive") (tstamp d44a6c3c-180c-452d-9be7-b67c1fd79e60))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 8bdeca69-faf5-4201-82a1-c44e72787deb))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2903,7 +2903,7 @@
       (net 8 "Vsec") (pinfunction "Pin_1") (pintype "passive") (tstamp 4a4d5dd9-5b7d-410e-be2f-43b378f0874b))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 88ff8b9e-dc78-4b29-945f-b0fc58f93715))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2972,7 +2972,7 @@
       (net 2 "UD-") (pinfunction "Pin_3") (pintype "passive") (tstamp 5a69bc98-2b72-4685-9747-d7db6f28fecb))
     (pad "4" thru_hole oval (at 0 7.62 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp b81ad72a-f496-4be3-a6a5-57193871791b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
