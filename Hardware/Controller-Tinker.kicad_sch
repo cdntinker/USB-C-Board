@@ -1214,6 +1214,7 @@
   (no_connect (at 247.65 43.18) (uuid 3b3f95a1-9333-41f4-87bd-3f19c144c208))
   (no_connect (at 26.67 34.29) (uuid 80abdaaa-5dac-42eb-acfb-19ab8d5bf8c7))
   (no_connect (at 26.67 148.59) (uuid a10fa333-0508-4346-b4c5-b7a6096b6105))
+  (no_connect (at 50.8 102.87) (uuid ac3174c3-003c-4faa-b67c-3a46c4f4f753))
   (no_connect (at 52.07 148.59) (uuid af89dd22-a346-4f6c-844b-343b331c3646))
   (no_connect (at 26.67 36.83) (uuid cb0f3a94-0cf4-420d-8c7d-13809cd05fcd))
   (no_connect (at 26.67 102.87) (uuid ec197287-2f8b-4f6c-94ae-4860f6102065))
@@ -1675,6 +1676,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid eae42ce9-20da-49d4-92f6-528196b00e61)
   )
+  (wire (pts (xy 50.8 105.41) (xy 46.99 105.41))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid eb1d905a-6fb8-4126-a7d7-2c2c16a8f581)
+  )
   (wire (pts (xy 138.43 36.83) (xy 138.43 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ebc71f19-8db8-4cfa-b3c9-75d5643d5971)
@@ -1876,6 +1881,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 61bc77c1-415a-4782-a1bb-3ca7cb5fe1af)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 17.544 36.9094 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Vout" (shape input) (at 48.26 102.87 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 63dd555c-9acd-4711-a981-a589449b8e4b)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 41.7345 102.7906 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2093,7 +2105,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 190.5 87.63 0) (unit 1)
     (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 029b3e5a-c445-46a8-9f4d-5907f95d4882)
-    (property "Reference" "J1" (id 0) (at 194.31 87.9231 0)
+    (property "Reference" "J10" (id 0) (at 194.31 87.9231 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_Coaxial" (id 1) (at 193.04 89.1931 0)
@@ -2612,6 +2624,22 @@
     (pin "1" (uuid 3a8a5a61-8cac-41f1-8d0d-a00eef04a338))
   )
 
+  (symbol (lib_id "power:GND") (at 46.99 105.41 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 994694c7-9213-431b-bed4-b4944e05294c)
+    (property "Reference" "#PWR0121" (id 0) (at 46.99 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 46.863 109.8042 0))
+    (property "Footprint" "" (id 2) (at 46.99 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 46.99 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55595803-2fb6-492f-bc82-12e0ad471b91))
+  )
+
   (symbol (lib_id "power:+3.3V") (at 207.01 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9c2050c4-f94d-407a-928c-143ee1fb8e1b)
@@ -2830,6 +2858,21 @@
     (pin "1" (uuid 880192c9-e24a-43c6-8bde-ceae01b20743))
   )
 
+  (symbol (lib_id "Connector:Conn_01x02_Male") (at 55.88 102.87 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid e516ae01-774d-4d4f-b0c4-6f2304b851fc)
+    (property "Reference" "J4" (id 0) (at 55.245 97.79 0))
+    (property "Value" "Conn_01x02_Male" (id 1) (at 55.245 100.33 0))
+    (property "Footprint" "Tinker:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 55.88 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 55.88 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd1a2ed9-9fc7-4577-9aec-e6840dc83d90))
+    (pin "2" (uuid 22837883-5059-42b4-883f-cdf5ef0b6775))
+  )
+
   (symbol (lib_id "0-TINKER Customs:ABM8-26.000MHz-20-D1X-T") (at 210.82 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ef1cd2b4-fd5d-40e1-a039-0fe80e594907)
@@ -2982,7 +3025,7 @@
   (symbol (lib_id "Connector:Conn_01x07_Male") (at 102.87 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff08f666-d31b-45a5-8777-a0482d9fced1)
-    (property "Reference" "J4" (id 0) (at 103.505 38.1 0))
+    (property "Reference" "J1" (id 0) (at 103.505 38.1 0))
     (property "Value" "Conn_01x07_Male" (id 1) (at 107.95 50.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3066,6 +3109,9 @@
     (path "/9e707601-60bc-4f36-ba58-a1f13bb5c84d"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
+    (path "/994694c7-9213-431b-bed4-b4944e05294c"
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
+    )
     (path "/df37fa07-f19e-4b86-8f6a-f7465dd4c78c"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
@@ -3099,8 +3145,8 @@
     (path "/5c104459-36e5-4950-bac8-f51d6ee510aa"
       (reference "C8") (unit 1) (value "22uf") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
     )
-    (path "/029b3e5a-c445-46a8-9f4d-5907f95d4882"
-      (reference "J1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical")
+    (path "/ff08f666-d31b-45a5-8777-a0482d9fced1"
+      (reference "J1") (unit 1) (value "Conn_01x07_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
     )
     (path "/ce562b82-4d15-4512-9ef8-80a89b06889d"
       (reference "J2") (unit 1) (value "Conn_01x04_Male") (footprint "Tinker:PinHeader_1x04_P2.54mm_Vertical")
@@ -3108,8 +3154,8 @@
     (path "/31399746-8e56-4d74-b787-07c634e0c687"
       (reference "J3") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/ff08f666-d31b-45a5-8777-a0482d9fced1"
-      (reference "J4") (unit 1) (value "Conn_01x07_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
+    (path "/e516ae01-774d-4d4f-b0c4-6f2304b851fc"
+      (reference "J4") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/fb3406f1-7439-4c3c-b07d-423418b2c3c6"
       (reference "J5") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
@@ -3119,6 +3165,9 @@
     )
     (path "/ae69f442-7b32-4ab2-972d-28d283e0750f"
       (reference "J9") (unit 1) (value "Conn_01x04_MountingPin") (footprint "Tinker:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+    )
+    (path "/029b3e5a-c445-46a8-9f4d-5907f95d4882"
+      (reference "J10") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical")
     )
     (path "/19bc14f3-d8ae-4814-b05f-47c0ed846eb8"
       (reference "Q1") (unit 1) (value "UMH3N") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
