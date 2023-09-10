@@ -496,7 +496,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 33.02 104.14 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 31399746-8e56-4d74-b787-07c634e0c687)
     (property "Reference" "J3" (id 0) (at 32.385 99.06 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 32.385 101.6 0))
@@ -527,7 +527,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 58.42 104.14 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 3e0c68bf-ba51-4f62-99ab-bd31c272fa62)
     (property "Reference" "J4" (id 0) (at 57.785 99.06 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 57.785 101.6 0))
@@ -606,7 +606,7 @@
   )
 
   (symbol (lib_id "Connector_QWIIC_Stackable:QWIIC_Stackable") (at 133.35 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid b8a785f2-9322-4569-b066-f0e9fc64eafd)
     (property "Reference" "J9" (id 0) (at 135.89 52.4255 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -628,7 +628,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 58.42 148.59 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid c84ab28b-75dd-4180-9570-ba047f49794b)
     (property "Reference" "J6" (id 0) (at 57.15 143.51 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -647,7 +647,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 31.75 34.29 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid ce562b82-4d15-4512-9ef8-80a89b06889d)
     (property "Reference" "J2" (id 0) (at 27.94 26.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -700,7 +700,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 33.02 148.59 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid fb3406f1-7439-4c3c-b07d-423418b2c3c6)
     (property "Reference" "J5" (id 0) (at 32.385 143.51 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 32.385 146.05 0))

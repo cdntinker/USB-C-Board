@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/USB-C Board.kicad_sch</source>
-    <date>Sun 10 Sep 2023 03:01:24 PM</date>
+    <date>Sun 10 Sep 2023 05:01:15 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -41,7 +41,7 @@
     <comp ref="C2">
       <value>1.0uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1.0UF-0603-16V-10%" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -50,7 +50,7 @@
     <comp ref="C3">
       <value>1.0uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1.0UF-0603-16V-10%" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -59,7 +59,7 @@
     <comp ref="C4">
       <value>1.0uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1.0UF-0603-16V-10%" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -68,7 +68,7 @@
     <comp ref="C5">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="0.1UF-0603-100V-10%" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -256,7 +256,11 @@
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>Tinker:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Vendor">LCSC</field>
+      </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Vendor" value="LCSC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -347,7 +351,7 @@
     <comp ref="R3">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -356,7 +360,7 @@
     <comp ref="R4">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -365,7 +369,7 @@
     <comp ref="R5">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100OHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -374,7 +378,7 @@
     <comp ref="R6">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -383,7 +387,7 @@
     <comp ref="R7">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="22KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -392,7 +396,7 @@
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -401,7 +405,7 @@
     <comp ref="R9">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -410,7 +414,7 @@
     <comp ref="R10">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -419,7 +423,7 @@
     <comp ref="R11">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -428,7 +432,7 @@
     <comp ref="R12">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -437,7 +441,7 @@
     <comp ref="R13">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -446,7 +450,7 @@
     <comp ref="R14">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -455,7 +459,7 @@
     <comp ref="R15">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -464,7 +468,7 @@
     <comp ref="R16">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -473,7 +477,7 @@
     <comp ref="R17">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100KOHM-0603-1{slash}10W-1%" description=""/>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -595,6 +599,22 @@
         <pin num="MP" name="MountPin" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="CP">
       <footprints>
         <fp>CP_*</fp>
@@ -635,6 +655,22 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -771,72 +807,6 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="0.1UF-0603-100V-10%">
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">0.1UF-0603-100V-10%</field>
-        <field name="Footprint">SparkFun_STUSB4500_USB-PD:0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1.0UF-0603-16V-10%">
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">1.0UF-0603-16V-10%</field>
-        <field name="Footprint">SparkFun_STUSB4500_USB-PD:0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100KOHM-0603-1{slash}10W-1%">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">100KOHM-0603-1{slash}10W-1%</field>
-        <field name="Footprint">SparkFun_STUSB4500_USB-PD:0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="100OHM-0603-1{slash}10W-1%">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">100OHM-0603-1{slash}10W-1%</field>
-        <field name="Footprint">SparkFun_STUSB4500_USB-PD:0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="1KOHM-0603-1{slash}10W-1%">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">1KOHM-0603-1{slash}10W-1%</field>
-        <field name="Footprint">SparkFun_STUSB4500_USB-PD:0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SparkFun_STUSB4500_USB-PD-eagle-import" part="22KOHM-0603-1{slash}10W-1%">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">22KOHM-0603-1{slash}10W-1%</field>
-        <field name="Footprint">SparkFun_STUSB4500_USB-PD:0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
       <docs>~</docs>
@@ -921,11 +891,11 @@
   </libraries>
   <nets>
     <net code="1" name="/ADDR0">
-      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="ADDR0" pintype="input"/>
     </net>
     <net code="2" name="/ADDR1">
-      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
       <node ref="U3" pin="13" pinfunction="ADDR1" pintype="input"/>
     </net>
     <net code="3" name="2v7">
@@ -935,16 +905,16 @@
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="4" name="ALERT">
-      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U3" pin="19" pinfunction="ALERT" pintype="open_collector"/>
     </net>
     <net code="5" name="ATTACH">
-      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U3" pin="11" pinfunction="ATTACH" pintype="open_collector"/>
     </net>
     <net code="6" name="A_B_SIDE">
@@ -966,9 +936,9 @@
     </net>
     <net code="9" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="2" pintype="passive"/>
@@ -987,93 +957,93 @@
       <node ref="J9" pin="MP" pinfunction="MountPin" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="10" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="22" pinfunction="VSYS" pintype="power_in"/>
       <node ref="U3" pin="25" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="10" name="GPIO">
-      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U3" pin="15" pinfunction="GPIO" pintype="open_collector"/>
     </net>
     <net code="11" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="VREG_1V2" pintype="power_out"/>
     </net>
     <net code="12" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U3" pin="23" pinfunction="VREG_2V7" pintype="power_out"/>
     </net>
     <net code="13" name="Net-(C5-Pad2)">
-      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="14" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
     </net>
     <net code="15" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
     </net>
     <net code="16" name="Net-(D8-Pad1)">
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
     </net>
     <net code="17" name="Net-(D9-Pad1)">
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
     </net>
     <net code="18" name="Net-(JP3-Pad1)">
-      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
     </net>
     <net code="19" name="Net-(JP3-Pad2)">
-      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
     <net code="20" name="Net-(JP3-Pad3)">
-      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
     </net>
     <net code="21" name="Net-(Q1-Pad4)">
       <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
-      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="22" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U3" pin="18" pinfunction="VBUS_VS_DISCH" pintype="input"/>
     </net>
-    <net code="23" name="Net-(R7-Pad1)">
-      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="23" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="VBUS_EN_SNK" pintype="open_collector"/>
     </net>
     <net code="24" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="DISCH" pintype="bidirectional"/>
     </net>
     <net code="25" name="POWER_OK2">
-      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U3" pin="20" pinfunction="POWER_OK2" pintype="open_collector"/>
     </net>
     <net code="26" name="POWER_OK3">
-      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="POWER_OK3" pintype="open_collector"/>
     </net>
     <net code="27" name="RESET">
-      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="RESET" pintype="input"/>
     </net>
     <net code="28" name="SCL">
       <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="SCL" pintype="input"/>
     </net>
     <net code="29" name="SDA">
       <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="SDA" pintype="bidirectional"/>
     </net>
     <net code="30" name="UD+">
@@ -1089,7 +1059,7 @@
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="32" name="Vbus">
-      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
@@ -1097,17 +1067,17 @@
       <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U3" pin="24" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="33" name="Vout">
-      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="34" name="Vsec">
