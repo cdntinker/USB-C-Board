@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/Proto.kicad_sch</source>
+    <date>Sun 10 Sep 2023 03:02:16 PM</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Prototype Board</title>
+        <company>The Nerd Mage</company>
+        <rev>0.0.1</rev>
+        <date/>
+        <source>Proto.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Conn_01x04_Male</value>
+      <footprint>Tinker:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce562b82-4d15-4512-9ef8-80a89b06889d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Tinker:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31399746-8e56-4d74-b787-07c634e0c687</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Tinker:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e0c68bf-ba51-4f62-99ab-bd31c272fa62</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Tinker:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb3406f1-7439-4c3c-b07d-423418b2c3c6</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Tinker:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c84ab28b-75dd-4180-9570-ba047f49794b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>QWIIC_Stackable</value>
+      <footprint>Tinker:QWIIC_Stackable</footprint>
+      <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a785f2-9322-4569-b066-f0e9fc64eafd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable">
+      <description>A stackable version of the horizontal QWIIC connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">QWIIC_Stackable</field>
+        <field name="Footprint">Tinker:QWIIC_Stackable</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_QWIIC_Stackable">
+      <uri>/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/Symbols/Connector_QWIIC_Stackable.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="MP" pinfunction="MountPin" pintype="passive"/>
+    </net>
+    <net code="2" name="SCL">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="SDA">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="UD+">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="UD-">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="6" name="Vcc?">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="Vout">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
