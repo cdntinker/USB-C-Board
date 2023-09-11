@@ -3523,12 +3523,12 @@
       (net 3 "GND") (pinfunction "MountPin") (pintype "passive") (tstamp aa06ff4d-1c65-4c92-a55c-b4ba5e3c5c93))
     (pad "MP" smd roundrect (at 2.8 1.905 270) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 3 "GND") (pinfunction "MountPin") (pintype "passive") (tstamp ac87515c-83a2-456d-b9b7-c5a470407465))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x04_P1.00mm_Vertical.step"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x04_P1.00mm_Vertical.step" hide
       (offset (xyz 1.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Right.step"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Right.step" hide
       (offset (xyz 0 0 -1.78))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -180 90))
