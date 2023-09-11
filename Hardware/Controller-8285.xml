@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/Controller-8285.kicad_sch</source>
+    <date>Mon 11 Sep 2023 05:18:47 PM</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB-C PD Controller</title>
+        <company>The Nerd Mage</company>
+        <rev>0.0.1</rev>
+        <date/>
+        <source>Controller-8285.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>20pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C325469</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C325469"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ab8bf5-39b8-44ae-a166-4eb6e2cc77c3</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>20pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C325469</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C325469"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e58d2a2-11d5-4c20-8ec6-fde40abf0630</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd3aca8e-7f28-4d18-b0e6-f55f5e1454ac</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cf6c72c-3d00-4eb6-af3e-f7072449457f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22uf</value>
+      <footprint>Tinker:CP_EIA-6032-28-Tantalumm_HandSolder</footprint>
+      <datasheet>http://datasheets.avx.com/TAJ.pdf</datasheet>
+      <fields>
+        <field name="P/N">TAJB226M010RNJ</field>
+        <field name="Vendor">LCSC C89246</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="P/N" value="TAJB226M010RNJ"/>
+      <property name="Vendor" value="LCSC C89246"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c104459-36e5-4950-bac8-f51d6ee510aa</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>QWIIC_Stackable</value>
+      <footprint>Tinker:QWIIC_Stackable</footprint>
+      <fields>
+        <field name="Vendor">LCSC C145956, </field>
+      </fields>
+      <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
+      <property name="Vendor" value="LCSC C145956, "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8e59293-57c0-410d-9624-31545ded5709</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>UMH3N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C62892</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="UMH3N" description="0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"/>
+      <property name="Vendor" value="LCSC C62892"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c752c03-2010-43dc-9395-b770fef207ee 19bc14f3-d8ae-4814-b05f-47c0ed846eb8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C22790</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C22790"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83ca6a40-0058-40c4-995f-fb1378bb5d9f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C22935</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C22935"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cda3487-0a79-4db6-81be-c831b91277ba</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39660ab3-6b73-40de-95b1-4a0fac9636be</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63aac81d-323a-4a50-b927-17e96bec1664</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3233b19-e869-4733-ad2d-4657193e665a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7742550-358b-4ff3-adc5-66d89e2bbbe0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP8285H16</value>
+      <footprint>Tinker:QFN50P500X500X90-33N-D</footprint>
+      <fields>
+        <field name="Datasheet_1">http://espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf</field>
+        <field name="Footprint_1">QFN50P500X500X90-33N-D</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP8285</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">ESP8285</field>
+        <field name="Vendor">LCSC C967019</field>
+      </fields>
+      <libsource lib="ESP8285" part="ESP8285" description="Wi-Fi SoC, qfn-32"/>
+      <property name="Reference_1" value="IC"/>
+      <property name="Value_1" value="ESP8285"/>
+      <property name="Footprint_1" value="QFN50P500X500X90-33N-D"/>
+      <property name="Datasheet_1" value="http://espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf"/>
+      <property name="Height" value="0.9"/>
+      <property name="Manufacturer_Name" value="Espressif Systems"/>
+      <property name="Manufacturer_Part_Number" value="ESP8285"/>
+      <property name="Vendor" value="LCSC C967019"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23437b3f-e176-43f4-8ff6-86a420a5146a</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>26.000MHz</value>
+      <footprint>Tinker:ABM825000MHz10B1UT</footprint>
+      <datasheet>https://abracon.com/Resonators/abm8.pdf</datasheet>
+      <fields>
+        <field name="Description">CRYSTAL 25.0000MHZ 20PF SMD</field>
+        <field name="Height">0.8</field>
+        <field name="Vendor">LCSC C2149083</field>
+      </fields>
+      <libsource lib="0-TINKER Customs" part="ABM8-26.000MHz-20-D1X-T" description="CRYSTAL 25.0000MHZ 20PF SMD"/>
+      <property name="Description" value="CRYSTAL 25.0000MHZ 20PF SMD"/>
+      <property name="Height" value="0.8"/>
+      <property name="Vendor" value="LCSC C2149083"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef1cd2b4-fd5d-40e1-a039-0fe80e594907</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0-TINKER Customs" part="ABM8-26.000MHz-20-D1X-T">
+      <description>CRYSTAL 25.0000MHZ 20PF SMD</description>
+      <docs>https://abracon.com/Resonators/abm8.pdf</docs>
+      <fields>
+        <field name="Reference">Y2</field>
+        <field name="Value">ABM8-26.000MHz-20-D1X-T</field>
+        <field name="Footprint">Tinker Customs:ABM825000MHz10B1UT</field>
+        <field name="Datasheet">https://abracon.com/Resonators/abm8.pdf</field>
+        <field name="Description">CRYSTAL 25.0000MHZ 20PF SMD</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">ABRACON</field>
+        <field name="Manufacturer_Part_Number">ABM8-25.000MHz-20-D1X-T</field>
+        <field name="Mouser Part Number">815-M825000MHZ20D1XT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-25000MHZ-20-D1X-T?qs=vLWxofP3U2wG9GR0CKrroQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Xt_1" type="passive"/>
+        <pin num="2" name="G_1" type="passive"/>
+        <pin num="3" name="Xt_2" type="passive"/>
+        <pin num="4" name="G_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable">
+      <description>A stackable version of the horizontal QWIIC connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">QWIIC_Stackable</field>
+        <field name="Footprint">Tinker:QWIIC_Stackable</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP8285" part="ESP8285">
+      <description>Wi-Fi SoC, qfn-32</description>
+      <fields>
+        <field name="Value">ESP8285</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">ESP8285</field>
+        <field name="Footprint_1">QFN50P500X500X90-33N-D</field>
+        <field name="Datasheet_1">http://espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP8285</field>
+        <field name="Mouser Part Number">356-ESP8285</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP8285?qs=chTDxNqvsyn49Ad%252BqWdhIQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA_1" type="passive"/>
+        <pin num="2" name="LNA" type="passive"/>
+        <pin num="3" name="VDD3P3_1" type="passive"/>
+        <pin num="4" name="VDD3P3_2" type="passive"/>
+        <pin num="5" name="VDD_RTC" type="passive"/>
+        <pin num="6" name="TOUT" type="passive"/>
+        <pin num="7" name="CHIP_EN" type="passive"/>
+        <pin num="8" name="XDP_DCDC" type="passive"/>
+        <pin num="9" name="MTMS" type="passive"/>
+        <pin num="10" name="MTDI" type="passive"/>
+        <pin num="11" name="VDDPST_1" type="passive"/>
+        <pin num="12" name="MTCK" type="passive"/>
+        <pin num="13" name="MTDO" type="passive"/>
+        <pin num="14" name="GPIO2" type="passive"/>
+        <pin num="15" name="GPIO0" type="passive"/>
+        <pin num="16" name="GPIO4" type="passive"/>
+        <pin num="17" name="VDDPST_2" type="passive"/>
+        <pin num="18" name="SD_DATA_2" type="passive"/>
+        <pin num="19" name="SD_DATA_3" type="passive"/>
+        <pin num="20" name="SD_CMD" type="passive"/>
+        <pin num="21" name="SD_CLK" type="passive"/>
+        <pin num="22" name="SD_DATA_0" type="passive"/>
+        <pin num="23" name="SD_DATA_1" type="passive"/>
+        <pin num="24" name="GPIO5" type="passive"/>
+        <pin num="25" name="U0RXD" type="passive"/>
+        <pin num="26" name="U0TXD" type="passive"/>
+        <pin num="27" name="XTAL_OUT" type="passive"/>
+        <pin num="28" name="XTAL_IN" type="passive"/>
+        <pin num="29" name="VDDD" type="passive"/>
+        <pin num="30" name="VDDA_2" type="passive"/>
+        <pin num="31" name="RES12K" type="passive"/>
+        <pin num="32" name="EXT_RSTB" type="passive"/>
+        <pin num="33" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINKER Customs" part="Antenna">
+      <description>Antenna</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE1</field>
+        <field name="Value">Antenna</field>
+        <field name="Footprint">Tinker Customs:Texas_SWRA117D_2.4GHz_Left</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="UMH3N">
+      <description>0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363</description>
+      <docs>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">UMH3N</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_QWIIC_Stackable">
+      <uri>/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/Symbols/Connector_QWIIC_Stackable.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP8285">
+      <uri>/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/Symbols/ESP8285.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDDA_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="VDDPST_1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VDDPST_2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="VDDD" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VDD3P3_1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VDDA_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD3P3_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/DTR">
+      <node ref="Q1" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="Q1" pin="3" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="3" name="/RTS">
+      <node ref="Q1" pin="1" pinfunction="E1" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="B2" pintype="input"/>
+    </net>
+    <net code="4" name="/eXi">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="XTAL_IN" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="Xt_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/eXo">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="XTAL_OUT" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="Xt_1" pintype="passive"/>
+    </net>
+    <net code="6" name="ADC">
+      <node ref="U1" pin="6" pinfunction="TOUT" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="EP" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="G_1" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="8" name="IO0">
+      <node ref="Q1" pin="4" pinfunction="E2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GPIO0" pintype="passive"/>
+    </net>
+    <net code="9" name="IO1">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="U0TXD" pintype="passive"/>
+    </net>
+    <net code="10" name="IO2">
+      <node ref="U1" pin="14" pinfunction="GPIO2" pintype="passive"/>
+    </net>
+    <net code="11" name="IO3">
+      <node ref="U1" pin="25" pinfunction="U0RXD" pintype="passive"/>
+    </net>
+    <net code="12" name="IO5">
+      <node ref="U1" pin="24" pinfunction="GPIO5" pintype="passive"/>
+    </net>
+    <net code="13" name="IO7">
+      <node ref="U1" pin="22" pinfunction="SD_DATA_0" pintype="passive"/>
+    </net>
+    <net code="14" name="IO8">
+      <node ref="U1" pin="23" pinfunction="SD_DATA_1" pintype="passive"/>
+    </net>
+    <net code="15" name="IO9">
+      <node ref="U1" pin="18" pinfunction="SD_DATA_2" pintype="passive"/>
+    </net>
+    <net code="16" name="IO10">
+      <node ref="U1" pin="19" pinfunction="SD_DATA_3" pintype="passive"/>
+    </net>
+    <net code="17" name="IO11">
+      <node ref="U1" pin="20" pinfunction="SD_CMD" pintype="passive"/>
+    </net>
+    <net code="18" name="IO12">
+      <node ref="U1" pin="10" pinfunction="MTDI" pintype="passive"/>
+    </net>
+    <net code="19" name="IO13">
+      <node ref="U1" pin="12" pinfunction="MTCK" pintype="passive"/>
+    </net>
+    <net code="20" name="IO14">
+      <node ref="U1" pin="9" pinfunction="MTMS" pintype="passive"/>
+    </net>
+    <net code="21" name="IO15">
+      <node ref="U1" pin="13" pinfunction="MTDO" pintype="passive"/>
+    </net>
+    <net code="22" name="IO16">
+      <node ref="U1" pin="8" pinfunction="XDP_DCDC" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="2" pinfunction="LNA" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="RES12K" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CHIP_EN" pintype="passive"/>
+    </net>
+    <net code="28" name="RST">
+      <node ref="Q1" pin="6" pinfunction="C1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="EXT_RSTB" pintype="passive"/>
+    </net>
+    <net code="29" name="SCL">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="SD_CLK" pintype="passive"/>
+    </net>
+    <net code="30" name="SDA">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GPIO4" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="VDD_RTC" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
