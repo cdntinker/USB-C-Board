@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/USB-C Board.kicad_sch</source>
-    <date>Sun 10 Sep 2023 05:01:15 PM</date>
+    <date>Sun 10 Sep 2023 10:49:32 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -30,9 +30,11 @@
       <datasheet>http://datasheets.avx.com/TAJ.pdf</datasheet>
       <fields>
         <field name="P/N">TAJB226M010RNJ</field>
+        <field name="Vendor">LCSC C89246</field>
       </fields>
       <libsource lib="Device" part="CP" description=""/>
       <property name="P/N" value="TAJB226M010RNJ"/>
+      <property name="Vendor" value="LCSC C89246"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -41,7 +43,11 @@
     <comp ref="C2">
       <value>1.0uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -50,7 +56,11 @@
     <comp ref="C3">
       <value>1.0uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -59,7 +69,11 @@
     <comp ref="C4">
       <value>1.0uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -68,7 +82,11 @@
     <comp ref="C5">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C14663</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C14663"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -89,6 +107,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
         <field name="Reference_1">D</field>
         <field name="Value_1">PGB1010603NR</field>
+        <field name="Vendor">LCSC C10677</field>
       </fields>
       <libsource lib="PGB1010603NR" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
       <property name="Reference_1" value="D"/>
@@ -102,6 +121,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Vendor" value="LCSC C10677"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -122,6 +142,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
         <field name="Reference_1">D</field>
         <field name="Value_1">PGB1010603NR</field>
+        <field name="Vendor">LCSC C10677</field>
       </fields>
       <libsource lib="PGB1010603NR" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
       <property name="Reference_1" value="D"/>
@@ -135,6 +156,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Vendor" value="LCSC C10677"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -155,6 +177,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
         <field name="Reference_1">D</field>
         <field name="Value_1">PGB1010603NR</field>
+        <field name="Vendor">LCSC C10677</field>
       </fields>
       <libsource lib="PGB1010603NR" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
       <property name="Reference_1" value="D"/>
@@ -168,6 +191,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Vendor" value="LCSC C10677"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -188,6 +212,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
         <field name="Reference_1">D</field>
         <field name="Value_1">PGB1010603NR</field>
+        <field name="Vendor">LCSC C10677</field>
       </fields>
       <libsource lib="PGB1010603NR" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
       <property name="Reference_1" value="D"/>
@@ -201,6 +226,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Vendor" value="LCSC C10677"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -210,7 +236,11 @@
       <value>BAT60A</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C5355496</field>
+      </fields>
       <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <property name="Vendor" value="LCSC C5355496"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -219,7 +249,11 @@
     <comp ref="D6">
       <value>blue</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C434421</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="LCSC C434421"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -228,7 +262,11 @@
     <comp ref="D7">
       <value>yellow</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C434424</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="LCSC C434424"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -237,7 +275,11 @@
     <comp ref="D8">
       <value>yellow</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C434424</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="LCSC C434424"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -246,7 +288,11 @@
     <comp ref="D9">
       <value>green</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C434420</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="LCSC C434420"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -257,10 +303,10 @@
       <footprint>Tinker:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <fields>
-        <field name="Vendor">LCSC</field>
+        <field name="Vendor">LCSC C2765186</field>
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
-      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor" value="LCSC C2765186"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -314,7 +360,11 @@
     <comp ref="J9">
       <value>QWIIC_Stackable</value>
       <footprint>Tinker:QWIIC_Stackable</footprint>
+      <fields>
+        <field name="Vendor">LCSC C145956, </field>
+      </fields>
       <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
+      <property name="Vendor" value="LCSC C145956, "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -324,7 +374,11 @@
       <value>DMP3013SFV</value>
       <footprint>Package_SON:Diodes_PowerDI3333-8</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C264098</field>
+      </fields>
       <libsource lib="Transistor_FET" part="DMP3013SFV" description="-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"/>
+      <property name="Vendor" value="LCSC C264098"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -333,7 +387,11 @@
     <comp ref="R1">
       <value>5k1</value>
       <footprint>Tinker:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">LCSC C23186</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C23186"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -342,7 +400,11 @@
     <comp ref="R2">
       <value>5k1</value>
       <footprint>Tinker:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">LCSC C23186</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C23186"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -351,7 +413,11 @@
     <comp ref="R3">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -360,7 +426,11 @@
     <comp ref="R4">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25803</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -369,7 +439,11 @@
     <comp ref="R5">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C22775</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C22775"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -378,7 +452,11 @@
     <comp ref="R6">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25803</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -387,7 +465,11 @@
     <comp ref="R7">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C31850</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C31850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -396,7 +478,11 @@
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -405,7 +491,11 @@
     <comp ref="R9">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -414,7 +504,11 @@
     <comp ref="R10">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -423,7 +517,11 @@
     <comp ref="R11">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -432,7 +530,11 @@
     <comp ref="R12">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -441,7 +543,11 @@
     <comp ref="R13">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -450,7 +556,11 @@
     <comp ref="R14">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -459,7 +569,11 @@
     <comp ref="R15">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C21190</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -468,7 +582,11 @@
     <comp ref="R16">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25803</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -477,7 +595,11 @@
     <comp ref="R17">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25803</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="LCSC C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -486,7 +608,11 @@
     <comp ref="SW1">
       <value>SW_Push</value>
       <footprint>Tinker:SW_Push_TS273014TP</footprint>
+      <fields>
+        <field name="Vendor">LCSC C2858276</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Vendor" value="LCSC C2858276"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -496,7 +622,11 @@
       <value>AMS1117-3.3</value>
       <footprint>Tinker:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C6186</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Vendor" value="LCSC C6186"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -506,7 +636,11 @@
       <value>STUSB4500QTR</value>
       <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stusb4500.pdf</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C2678061</field>
+      </fields>
       <libsource lib="Interface_USB" part="STUSB4500QTR" description="Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"/>
+      <property name="Vendor" value="LCSC C2678061"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-C Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

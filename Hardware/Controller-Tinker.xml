@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/Controller-Tinker.kicad_sch</source>
-    <date>Sun 10 Sep 2023 05:00:46 PM</date>
+    <date>Sun 10 Sep 2023 10:46:01 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,11 @@
     <comp ref="C3">
       <value>10pf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C325468</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C325468"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,16 +40,24 @@
     <comp ref="C4">
       <value>10pf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C325468</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C325468"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2e58d2a2-11d5-4c20-8ec6-fde40abf0630</tstamps>
     </comp>
     <comp ref="C5">
-      <value>TBD (NC)</value>
+      <value>1uf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +66,11 @@
     <comp ref="C6">
       <value>1uf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C559769</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C559769"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +79,11 @@
     <comp ref="C7">
       <value>100nf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C14663</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="LCSC C14663"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -75,9 +95,11 @@
       <datasheet>http://datasheets.avx.com/TAJ.pdf</datasheet>
       <fields>
         <field name="P/N">TAJB226M010RNJ</field>
+        <field name="Vendor">LCSC C89246</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="P/N" value="TAJB226M010RNJ"/>
+      <property name="Vendor" value="LCSC C89246"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -86,7 +108,11 @@
     <comp ref="J9">
       <value>QWIIC_Stackable</value>
       <footprint>Tinker:QWIIC_Stackable</footprint>
+      <fields>
+        <field name="Vendor">LCSC C145956, </field>
+      </fields>
       <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
+      <property name="Vendor" value="LCSC C145956, "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -96,7 +122,11 @@
       <value>UMH3N</value>
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
       <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C62892</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="UMH3N" description="0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"/>
+      <property name="Vendor" value="LCSC C62892"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -105,7 +135,11 @@
     <comp ref="R1">
       <value>12K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C22790</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C22790"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -114,7 +148,11 @@
     <comp ref="R2">
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C22935</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C22935"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -123,7 +161,11 @@
     <comp ref="R3">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -132,7 +174,11 @@
     <comp ref="R4">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,7 +187,11 @@
     <comp ref="R5">
       <value>200R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C8218</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C8218"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -150,7 +200,11 @@
     <comp ref="R6">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -159,7 +213,11 @@
     <comp ref="R7">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">LCSC C25804</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="LCSC C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -169,7 +227,11 @@
       <value>ESP8266EX</value>
       <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm</footprint>
       <datasheet>http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Vendor">LCSC C77967</field>
+      </fields>
       <libsource lib="MCU_Espressif" part="ESP8266EX" description="Highly integrated Wi-Fi SoC, QFN-32"/>
+      <property name="Vendor" value="LCSC C77967"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -180,24 +242,18 @@
       <footprint>Package_SO:SOIC-8_5.275x5.275mm_P1.27mm</footprint>
       <datasheet>https://componentsearchengine.com/Datasheets/1/SST25VF016B-50-4I-S2AF.pdf</datasheet>
       <fields>
-        <field name="Arrow Part Number">SST25VF016B-50-4I-S2AF</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sst25vf016b-50-4i-s2af/microchip-technology?region=nac</field>
         <field name="Description">NOR Flash</field>
         <field name="Height">2.16</field>
         <field name="Manufacturer_Name">Microchip</field>
         <field name="Manufacturer_Part_Number">SST25VF016B-50-4I-S2AF</field>
-        <field name="Mouser Part Number">579-25VF016B5IS2AF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/SST25VF016B-50-4I-S2AF?qs=1RUxC5ic%2FMoMGeEXhm8Oww%3D%3D</field>
+        <field name="Vendor">LCSC C68557</field>
       </fields>
       <libsource lib="0-TINKER Customs" part="SST25VF016B-50-4I-S2AF" description="NOR Flash"/>
       <property name="Description" value="NOR Flash"/>
       <property name="Height" value="2.16"/>
       <property name="Manufacturer_Name" value="Microchip"/>
       <property name="Manufacturer_Part_Number" value="SST25VF016B-50-4I-S2AF"/>
-      <property name="Mouser Part Number" value="579-25VF016B5IS2AF"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/SST25VF016B-50-4I-S2AF?qs=1RUxC5ic%2FMoMGeEXhm8Oww%3D%3D"/>
-      <property name="Arrow Part Number" value="SST25VF016B-50-4I-S2AF"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/sst25vf016b-50-4i-s2af/microchip-technology?region=nac"/>
+      <property name="Vendor" value="LCSC C68557"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Controller-Tinker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
