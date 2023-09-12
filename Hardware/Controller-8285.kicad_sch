@@ -1995,7 +1995,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 189.23 104.14 0) (unit 1)
-    (in_bom no) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 029b3e5a-c445-46a8-9f4d-5907f95d4882)
     (property "Reference" "J10" (id 0) (at 193.04 104.4331 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2374,7 +2374,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 184.15 86.36 0) (unit 1)
-    (in_bom no) (on_board no)
+    (in_bom yes) (on_board yes)
     (uuid 771c9caa-d60e-4dfd-a605-1bc8d6227692)
     (property "Reference" "C2" (id 0) (at 186.055 88.265 0))
     (property "Value" "5.6pf" (id 1) (at 179.705 83.185 0))
