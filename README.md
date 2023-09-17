@@ -1,4 +1,4 @@
-# The __ Nerd Mage "Universal" USB-C Board__  Project
+# The __Nerd Mage "Universal" USB-C Board__  Project
 
 **_This project is still a mostly untested WIP._**
 
