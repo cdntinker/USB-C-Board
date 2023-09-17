@@ -8,6 +8,7 @@
     (title "USB-C PD Controller")
     (rev "0.0.1")
     (company "The Nerd Mage")
+    (comment 2 "Massively a WIP!")
   )
 
   (lib_symbols

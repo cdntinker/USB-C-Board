@@ -10,7 +10,7 @@
     (company "The Nerd Mage")
     (comment 1 "Set I2C address by cutting 1 or both links in JP5")
     (comment 2 "Cut all 3 links in JP2-JP4 to remove I2C pullups")
-    (comment 3 "Stuff U1/C1 for 3v3 power supply")
+    (comment 3 "Stuff U1/C1/C6 for 3v3 power supply")
     (comment 4 "Stuff only R1/R2 and jump JP1 for 5V (non PD) power on Vout")
   )
 
