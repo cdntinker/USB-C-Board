@@ -2627,7 +2627,7 @@
     (uuid 1900ba65-68d1-40fd-8177-d09fd316c1f1)
   )
   (text "Only use this jumper if\nyou have NOT stuffed the\nPD components!"
-    (at 71.12 109.22 0)
+    (at 71.12 111.76 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid 33b5c3f5-c4ed-40e9-a297-1910431edda7)
   )
@@ -2669,8 +2669,8 @@
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid c43a6f73-2589-4620-ab27-58a0c5ff7720)
   )
-  (text "Leaving this jumper as-is\nleaves the PD circuite to\nmanage Vout\n\nSoldering it causes the USB\nsource to supply standard 5V"
-    (at 71.12 100.33 0)
+  (text "Leaving this jumper as-is\nleaves the PD circuite to\nmanage Vout\n\nSoldering it and stuffing R1/R2\ncauses the USB source to supply\nstandard 5V"
+    (at 71.12 102.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c6cbf774-960d-458e-b5aa-25680658a4c6)
   )
