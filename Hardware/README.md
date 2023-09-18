@@ -19,3 +19,5 @@
   * (This one has a long way to go yet...)
 * USB-PD Proto
   * Just a blank board with footprints in place to match up with the others.
+* USB-PD Programmer
+  * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins
