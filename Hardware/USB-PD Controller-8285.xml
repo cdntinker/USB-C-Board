@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/USB-PD Controller-8285.kicad_sch</source>
-    <date>Sun 17 Sep 2023 05:40:36 PM</date>
+    <date>Sun 17 Sep 2023 08:55:55 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,7 +12,7 @@
         <date/>
         <source>USB-PD Controller-8285.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Massively a WIP!"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -108,7 +108,11 @@
     <comp ref="J7">
       <value>Conn_01x08_Male</value>
       <footprint>Tinker:PinHeader_2x04_P1.27mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2881786 + C2684732</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2881786 + C2684732"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -546,14 +550,8 @@
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
-    <library logical="Connector_QWIIC_Stackable">
-      <uri>/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/Symbols/Connector_QWIIC_Stackable.kicad_sym</uri>
-    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
-    </library>
-    <library logical="ESP8285">
-      <uri>/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/Symbols/ESP8285.kicad_sym</uri>
     </library>
     <library logical="Jumper">
       <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>

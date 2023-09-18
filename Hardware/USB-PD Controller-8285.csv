@@ -5,7 +5,7 @@
 "C3, C4, ","2","C","20pf","C325469","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor"
 "C5, C6, ","2","C","1uf","C559769","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor"
 "C8, ","1","C_Polarized","22uf","C89246","Tinker:CP_EIA-6032-28-Tantalumm_HandSolder","Polarized capacitor"
-"J7, ","1","Conn_01x08_Male","Conn_01x08_Male","","Tinker:PinHeader_2x04_P1.27mm_Vertical","Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J7, ","1","Conn_01x08_Male","Conn_01x08_Male","C2881786 + C2684732","Tinker:PinHeader_2x04_P1.27mm_Vertical","Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 "Q1, ","1","UMH3N","UMH3N","C62892","Package_TO_SOT_SMD:SOT-363_SC-70-6","0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
 "R1, ","1","R","12K","C22790","Resistor_SMD:R_0603_1608Metric","Resistor"
 "R2, ","1","R","1M","C22935","Resistor_SMD:R_0603_1608Metric","Resistor"

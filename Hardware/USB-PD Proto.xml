@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/USB-PD Proto.kicad_sch</source>
-    <date>Sun 17 Sep 2023 05:46:04 PM</date>
+    <date>Sun 17 Sep 2023 08:56:50 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -105,9 +105,6 @@
   <libraries>
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
-    </library>
-    <library logical="Connector_QWIIC_Stackable">
-      <uri>/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/Symbols/Connector_QWIIC_Stackable.kicad_sym</uri>
     </library>
   </libraries>
   <nets/>
