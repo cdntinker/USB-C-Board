@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Tinker")(type "KiCad")(uri "${KIPRJMOD}/KiCAD Customs/Tinker.pretty")(options "")(descr ""))
+)

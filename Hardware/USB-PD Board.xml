@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/USB-PD Board.kicad_sch</source>
-    <date>Sun 17 Sep 2023 08:53:21 PM</date>
+    <date>Sun 17 Sep 2023 10:41:42 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -112,6 +112,7 @@
         <field name="Arrow Part Number">PGB1010603NR</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
         <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="DigiKey">F3591CT-ND</field>
         <field name="Footprint_1">PGB1010603NRHF</field>
         <field name="Height">0.36</field>
         <field name="LCSC">C10677</field>
@@ -135,6 +136,7 @@
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
       <property name="LCSC" value="C10677"/>
+      <property name="DigiKey" value="F3591CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -147,6 +149,7 @@
         <field name="Arrow Part Number">PGB1010603NR</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
         <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="DigiKey">F3591CT-ND</field>
         <field name="Footprint_1">PGB1010603NRHF</field>
         <field name="Height">0.36</field>
         <field name="LCSC">C10677</field>
@@ -170,6 +173,7 @@
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
       <property name="LCSC" value="C10677"/>
+      <property name="DigiKey" value="F3591CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -182,6 +186,7 @@
         <field name="Arrow Part Number">PGB1010603NR</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
         <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="DigiKey">F3591CT-ND</field>
         <field name="Footprint_1">PGB1010603NRHF</field>
         <field name="Height">0.36</field>
         <field name="LCSC">C10677</field>
@@ -205,6 +210,7 @@
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
       <property name="LCSC" value="C10677"/>
+      <property name="DigiKey" value="F3591CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -217,6 +223,7 @@
         <field name="Arrow Part Number">PGB1010603NR</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
         <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="DigiKey">F3591CT-ND</field>
         <field name="Footprint_1">PGB1010603NRHF</field>
         <field name="Height">0.36</field>
         <field name="LCSC">C10677</field>
@@ -240,6 +247,7 @@
       <property name="Arrow Part Number" value="PGB1010603NR"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
       <property name="LCSC" value="C10677"/>
+      <property name="DigiKey" value="F3591CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -250,10 +258,12 @@
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
       <fields>
+        <field name="DigiKey">BAT60AE6327HTSA1CT-ND</field>
         <field name="LCSC">C5355496</field>
       </fields>
       <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
       <property name="LCSC" value="C5355496"/>
+      <property name="DigiKey" value="BAT60AE6327HTSA1CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -343,10 +353,12 @@
       <footprint>Tinker:Diodes_PowerDI3333-8</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf</datasheet>
       <fields>
+        <field name="DigiKey">DMP3013SFV-7DICT-ND</field>
         <field name="LCSC">C264098</field>
       </fields>
       <libsource lib="Transistor_FET" part="DMP3013SFV" description="-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"/>
       <property name="LCSC" value="C264098"/>
+      <property name="DigiKey" value="DMP3013SFV-7DICT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -357,10 +369,12 @@
       <footprint>Tinker:Diodes_PowerDI3333-8</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf</datasheet>
       <fields>
+        <field name="DigiKey">DMP3013SFV-7DICT-ND</field>
         <field name="LCSC">C264098</field>
       </fields>
       <libsource lib="Transistor_FET" part="DMP3013SFV" description="-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"/>
       <property name="LCSC" value="C264098"/>
+      <property name="DigiKey" value="DMP3013SFV-7DICT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -605,10 +619,12 @@
       <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stusb4500.pdf</datasheet>
       <fields>
+        <field name="DigiKey">497-18060-1-ND</field>
         <field name="LCSC">C2678061</field>
       </fields>
       <libsource lib="Interface_USB" part="STUSB4500QTR" description="Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"/>
       <property name="LCSC" value="C2678061"/>
+      <property name="DigiKey" value="497-18060-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -619,6 +635,7 @@
       <footprint>Tinker:R1501J033BT1JE</footprint>
       <fields>
         <field name="Datasheet_1">https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/r1501-ec.pdf</field>
+        <field name="DigiKey">2129-R1501J033B-T1-JECT-ND</field>
         <field name="Footprint_1">R1501J033BT1JE</field>
         <field name="Height">2.627</field>
         <field name="LCSC">C3748149</field>
@@ -635,12 +652,8 @@
       <property name="Height" value="2.627"/>
       <property name="Manufacturer_Name" value="Nisshinbo"/>
       <property name="Manufacturer_Part_Number" value="R1501J033B-T1-JE"/>
-      <property name="Mouser Part Number" value=""/>
-      <property name="Mouser Price/Stock" value=""/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
-      <property name="Digikey Part Number" value=""/>
       <property name="LCSC" value="C3748149"/>
+      <property name="DigiKey" value="2129-R1501J033B-T1-JECT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
