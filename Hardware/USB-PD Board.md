@@ -1,11 +1,12 @@
 # Connectors & Jumpers:
 
-| Connector | Purpose              | Notes  |
-| --------- |:--------------------:| ------:|
-| J1        | USB-C (From supply)  |        |
-| J2        | USB 2.0 pass through |        |
-| J3, J4    | Available Vout       |        |
-| J3, J4    | Vsec supplied by U2  |        |
+| Connector | Purpose                        | Notes  |
+| --------- |:------------------------------:| ------:|
+| J1        | USB-C (From supply)            |        |
+| J2        | USB 2.0 pass through           |        |
+| J3, J4    | Available Vout                 |        |
+| J3, J4    | Vsec supplied by U2            |        |
+| J7        | Connection to Controller Board |        |
 
 | Connector | Purpose                       | Notes  |
 | --------- |:-----------------------------:| ------:|
