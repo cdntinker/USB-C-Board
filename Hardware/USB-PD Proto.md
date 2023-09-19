@@ -1,3 +1,6 @@
+# Notes:
+This board is simply a blank with the same form-factor as the rest of the boards & includes the (probably) appropriate connections to work with the rest...
+
 # Connectors & Jumpers:
 
 | Connector | Purpose                                             | Notes                         |
