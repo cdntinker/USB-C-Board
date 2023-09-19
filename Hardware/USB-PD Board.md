@@ -1,18 +1,18 @@
 # Connectors & Jumpers:
 
-| Connector | Purpose                        | Notes  |
-| --------- |:------------------------------:| ------:|
-| J1        | USB-C (From supply)            |        |
-| J2        | USB 2.0 pass through           |        |
-| J3, J4    | Available Vout                 |        |
-| J3, J4    | Vsec supplied by U2            |        |
-| J7        | Connection to Controller Board |        |
+| Connector | Purpose                        | Notes            |
+| --------- |:------------------------------:| ----------------:|
+| J1        | USB-C (From supply)            |                  |
+| J2        | USB 2.0 pass through           |                  |
+| J3, J4    | PD output voltage              | controlled by U1 |
+| J5, J6    | Secondary output voltage       | controlled by U2 |
+| J7        | Connection to Controller Board |                  |
 
-| Connector | Purpose                       | Notes  |
-| --------- |:-----------------------------:| ------:|
+| Jumper    | Purpose                       | Notes                                                |
+| --------- |:-----------------------------:| ----------------------------------------------------:|
 | JP1       | Connect Vout directly to Vusb | really just for using the board without the PD parts |
-| JP2-JP4   | For disconnecting I2C pullups | cut all 3 links to eliminate I2C pullups |
-| JP5       | For setting I2C address       |        |
+| JP2-JP4   | For disconnecting I2C pullups | cut all 3 links to eliminate I2C pullups             |
+| JP5       | For setting I2C address       |                                                      |
 
 # TBD:
 

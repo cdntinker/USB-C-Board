@@ -895,7 +895,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Male") (at 142.24 90.17 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid df99fb81-9cb2-43d0-b2ba-52fcac23a406)
-    (property "Reference" "J1" (id 0) (at 143.51 91.4399 0)
+    (property "Reference" "J7" (id 0) (at 143.51 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x08_Male" (id 1) (at 143.51 92.7099 0)
@@ -977,9 +977,6 @@
     (path "/f3f3cda7-7b0d-4ada-8654-095e00b7d0ea"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
-    (path "/df99fb81-9cb2-43d0-b2ba-52fcac23a406"
-      (reference "J1") (unit 1) (value "Conn_01x08_Male") (footprint "Tinker:PinHeader_2x04_P1.27mm_Vertical")
-    )
     (path "/ce562b82-4d15-4512-9ef8-80a89b06889d"
       (reference "J2") (unit 1) (value "Conn_01x04_Male") (footprint "Tinker:PinHeader_1x04_P2.54mm_Vertical")
     )
@@ -994,6 +991,9 @@
     )
     (path "/c84ab28b-75dd-4180-9570-ba047f49794b"
       (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/df99fb81-9cb2-43d0-b2ba-52fcac23a406"
+      (reference "J7") (unit 1) (value "Conn_01x08_Male") (footprint "Tinker:PinHeader_2x04_P1.27mm_Vertical")
     )
     (path "/b8a785f2-9322-4569-b066-f0e9fc64eafd"
       (reference "J9") (unit 1) (value "QWIIC_Stackable") (footprint "Tinker:QWIIC_Stackable")
