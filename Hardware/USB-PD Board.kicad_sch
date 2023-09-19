@@ -3204,7 +3204,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 171.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 190f6bea-8aac-403f-ac8a-226f974d94b0)
-    (property "Reference" "D7" (id 0) (at 147.32 168.91 0))
+    (property "Reference" "D8" (id 0) (at 147.32 168.91 0))
     (property "Value" "yellow" (id 1) (at 153.67 172.72 0))
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 148.59 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3372,7 +3372,7 @@
     (property "LCSC" "C10677" (id 16) (at 63.5 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey" "F3591CT-ND" (id 16) (at 63.5 44.45 0)
+    (property "DigiKey" "F3591CT-ND" (id 17) (at 63.5 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 07aa1f86-350f-40b0-b1d4-0ffed0e2a960))
@@ -3426,7 +3426,7 @@
   (symbol (lib_id "Device:LED") (at 138.43 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 28e4935e-8531-49fd-a293-46b5f30dcaa5)
-    (property "Reference" "D9" (id 0) (at 137.16 149.86 0))
+    (property "Reference" "D6" (id 0) (at 137.16 149.86 0))
     (property "Value" "green" (id 1) (at 143.51 153.67 0))
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 138.43 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3444,7 +3444,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 162.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 28f99d09-bd15-48e9-9c99-cfa59ba49696)
-    (property "Reference" "D6" (id 0) (at 147.32 160.02 0))
+    (property "Reference" "D7" (id 0) (at 147.32 160.02 0))
     (property "Value" "yellow" (id 1) (at 153.67 163.83 0))
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 148.59 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3528,7 +3528,7 @@
     (property "LCSC" "C10677" (id 16) (at 63.5 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey" "F3591CT-ND" (id 16) (at 63.5 24.13 0)
+    (property "DigiKey" "F3591CT-ND" (id 17) (at 63.5 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 726befac-9c5c-4f0f-870d-9a6b5502d7d4))
@@ -3996,7 +3996,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 181.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 772137f3-2174-406b-8535-55031442067a)
-    (property "Reference" "D8" (id 0) (at 147.32 179.07 0))
+    (property "Reference" "D9" (id 0) (at 147.32 179.07 0))
     (property "Value" "yellow" (id 1) (at 153.67 182.88 0))
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 148.59 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4472,7 +4472,7 @@
     (property "LCSC" "C10677" (id 16) (at 63.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey" "F3591CT-ND" (id 16) (at 63.5 34.29 0)
+    (property "DigiKey" "F3591CT-ND" (id 17) (at 63.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bb86c4ee-b91c-43b6-b09b-decfc020eff6))
@@ -4569,7 +4569,7 @@
     (property "LCSC" "C10677" (id 16) (at 63.5 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DigiKey" "F3591CT-ND" (id 16) (at 63.5 54.61 0)
+    (property "DigiKey" "F3591CT-ND" (id 17) (at 63.5 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid eae6bd5b-c580-4e0a-b557-b26e03aba223))
@@ -4919,17 +4919,17 @@
     (path "/05d39c17-b221-42d6-8c9b-17a36895fa87"
       (reference "D5") (unit 1) (value "BAT60A") (footprint "Diode_SMD:D_SOD-323")
     )
-    (path "/28f99d09-bd15-48e9-9c99-cfa59ba49696"
-      (reference "D6") (unit 1) (value "yellow") (footprint "LED_SMD:LED_0603_1608Metric")
+    (path "/28e4935e-8531-49fd-a293-46b5f30dcaa5"
+      (reference "D6") (unit 1) (value "green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/190f6bea-8aac-403f-ac8a-226f974d94b0"
+    (path "/28f99d09-bd15-48e9-9c99-cfa59ba49696"
       (reference "D7") (unit 1) (value "yellow") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/772137f3-2174-406b-8535-55031442067a"
+    (path "/190f6bea-8aac-403f-ac8a-226f974d94b0"
       (reference "D8") (unit 1) (value "yellow") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/28e4935e-8531-49fd-a293-46b5f30dcaa5"
-      (reference "D9") (unit 1) (value "green") (footprint "LED_SMD:LED_0603_1608Metric")
+    (path "/772137f3-2174-406b-8535-55031442067a"
+      (reference "D9") (unit 1) (value "yellow") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/124ef8fb-ebec-4a00-8394-dbf7badbf145"
       (reference "D10") (unit 1) (value "blue") (footprint "LED_SMD:LED_0603_1608Metric")
