@@ -9,11 +9,11 @@
 
 | Connector | Purpose                       | Notes  |
 | --------- |:-----------------------------:| ------:|
-| JP1       | Connect Vout directly to Vusb |        |
-| JP2-JP4   | For disconnecting I2C pullups |        |
+| JP1       | Connect Vout directly to Vusb | really just for using the board without the PD parts |
+| JP2-JP4   | For disconnecting I2C pullups | cut all 3 links to eliminate I2C pullups |
 | JP5       | For setting I2C address       |        |
 
-# Notes:
+# TBD:
 
 Need to find a spot for another LED...
 
