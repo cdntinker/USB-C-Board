@@ -1,3 +1,14 @@
+# Notes:
+## U1 - STUSB4500 Standalone USB PD Sink Controller
+
+(This chip and all of its support circuitry can be left off & then you can bridge JP1 and stuff R1 & R2 to treat the USB source as a standard 5V USB source.)
+
+## U2 - R1501xxxxB Series LDO regulator
+
+This chip is available in a wide range of output voltages.  Therefore, Vsec CAN be configured for anything from 3V to 18V.
+
+In most configurations, the 3v3 version (R1501J033B) will be used...
+
 # Connectors & Jumpers:
 
 | Connector | Purpose                        | Notes            |
