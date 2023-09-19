@@ -21,3 +21,4 @@
   * Just a blank board with footprints in place to match up with the others.
 * USB-PD Programmer
   * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins
+  * Of course, if you want a more permanent connection, you _could_ populate pins & headers instead of pogos...
