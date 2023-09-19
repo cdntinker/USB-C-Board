@@ -12,7 +12,7 @@ In most configurations, the 3v3 version (R1501J033B) will be used...
 # Connectors & Jumpers:
 
 | Connector | Purpose                        | Notes            |
-| --------- |:------------------------------:| ----------------:|
+| --------- |:------------------------------:| -----------------|
 | J1        | USB-C (From supply)            |                  |
 | J2        | USB 2.0 pass through           |                  |
 | J3, J4    | PD output voltage              | controlled by U1 |
@@ -20,7 +20,7 @@ In most configurations, the 3v3 version (R1501J033B) will be used...
 | J7        | Connection to Controller Board |                  |
 
 | Jumper    | Purpose                       | Notes                                                |
-| --------- |:-----------------------------:| ----------------------------------------------------:|
+| --------- |:-----------------------------:| -----------------------------------------------------|
 | JP1       | Connect Vout directly to Vusb | really just for using the board without the PD parts |
 | JP2-JP4   | For disconnecting I2C pullups | cut all 3 links to eliminate I2C pullups             |
 | JP5       | For setting I2C address       |                                                      |
