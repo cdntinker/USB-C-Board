@@ -427,5 +427,7 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "Revision": "0.0.4"
+  }
 }

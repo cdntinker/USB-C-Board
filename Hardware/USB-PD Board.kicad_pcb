@@ -6,8 +6,8 @@
 
   (paper "A4")
   (title_block
-    (title "USB-C (PD) Board")
-    (rev "0.0.1")
+    (title "USB-PD Board")
+    (rev "0.0.9")
     (company "The Nerd Mage")
   )
 
@@ -8292,7 +8292,7 @@
   (gr_line (start 120 75.5) (end 80 75.5) (layer "User.2") (width 0.15) (tstamp ceb1f44c-3f2d-4fcf-9a84-a1c7318553a4))
   (gr_line (start 120 78) (end 80 78) (layer "User.3") (width 0.15) (tstamp df22727e-2191-44c7-bde2-7ab036d56e41))
   (gr_line (start 80 92) (end 120 92) (layer "User.9") (width 0.15) (tstamp b4177f4c-2f40-4ea3-bb2d-29bd7ca590ca))
-  (gr_text "NerdMage Modules (v0.0.1)" (at 100 74.8) (layer "B.SilkS") (tstamp 05512b4b-2afd-470f-81e3-795cb53a6de2)
+  (gr_text "NerdMage Modules\n${TITLE} (v${REVISION})" (at 100 76) (layer "B.SilkS") (tstamp 05512b4b-2afd-470f-81e3-795cb53a6de2)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "D+" (at 101.27 71.12 180) (layer "B.SilkS") (tstamp 0a36229b-0001-4b49-a252-dbe59ae308bb)
@@ -8325,7 +8325,7 @@
   (gr_text "GND" (at 116.3 95.86 90) (layer "B.SilkS") (tstamp c5f3d40b-097b-4dec-93f4-61d4c9aeba45)
     (effects (font (size 0.6 0.6) (thickness 0.125)) (justify mirror))
   )
-  (gr_text "S. A. Miller 2023" (at 100 90) (layer "B.SilkS") (tstamp daddb5c7-63ad-4bab-9fcd-3da0c65d2884)
+  (gr_text "S. A. Miller 2023" (at 100 79) (layer "B.SilkS") (tstamp daddb5c7-63ad-4bab-9fcd-3da0c65d2884)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Vout" (at 83.7 93.32 270) (layer "B.SilkS") (tstamp e3ef18db-7da8-4912-bbd8-804346761e1f)

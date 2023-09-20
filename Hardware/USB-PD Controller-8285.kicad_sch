@@ -6,7 +6,7 @@
 
   (title_block
     (title "USB-C PD Controller")
-    (rev "0.0.1")
+    (rev "0.0.2")
     (company "The Nerd Mage")
     (comment 2 "Massively a WIP!")
   )

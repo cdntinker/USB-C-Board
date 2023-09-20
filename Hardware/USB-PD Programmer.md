@@ -18,7 +18,3 @@ Y1, C3 & C4 are only required for the CH340G & should not be stuffed for the CH3
 | JP1       | Supply Vcc (3v3) to Programmer Board |                               |
 
 # TBD:
-
-Should probably add a reset button.
-
-Indicator LEDs might be handy...
