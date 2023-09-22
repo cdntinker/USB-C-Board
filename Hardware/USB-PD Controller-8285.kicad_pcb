@@ -4786,7 +4786,7 @@
   (gr_text "RESET" (at 109.006399 95.824873) (layer "F.SilkS") (tstamp c639fc9b-95df-4ba6-b62c-d53bf9de9186)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "USB-C PD Controller\netc...etc...etc..." (at 94.437347 93.027774 45) (layer "F.SilkS") (tstamp c6592636-39a0-43f1-a557-1d0723c33f35)
+  (gr_text "${TITLE}" (at 94.437347 93.027774 45) (layer "F.SilkS") (tstamp c6592636-39a0-43f1-a557-1d0723c33f35)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_text "Vout" (at 103.81 71.12 180) (layer "F.SilkS") (tstamp c918a120-2473-41e8-bbb0-51dafbbbe2cf)
