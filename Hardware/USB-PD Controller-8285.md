@@ -32,4 +32,7 @@ Should see if it'd be usefull to break out any GPIO from the ESP...
   * GPIO
 * Maybe indicator LED(s)
 
-Looks like I'm using up all the GPIO...  Might be worth just re-organising the board & making it neater.
+~~Looks like I'm using up all the GPIO...  Might be worth just re-organising the board & making it neater.~~
+
+Rabbit-Hole OCD!!!
+
