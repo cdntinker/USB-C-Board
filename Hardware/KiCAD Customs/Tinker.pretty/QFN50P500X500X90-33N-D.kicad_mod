@@ -8,7 +8,7 @@
     (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 3bcf5375-b448-4991-8d64-25bc51b02900)
   )
-  (fp_text value "QFN50P500X500X90-33N-D" (at 0 0) (layer "F.SilkS") hide
+  (fp_text value "QFN50P500X500X90-33N-D" (at 0 5.08) (layer "F.SilkS") hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 53bb3651-eafc-4912-85b6-dadc1172c7c1)
   )
@@ -58,7 +58,16 @@
   (pad "30" smd rect (at -0.75 -2.5) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5748cc7b-470c-4247-80d8-56a5275fb7ec))
   (pad "31" smd rect (at -1.25 -2.5) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp abce6104-8fb0-4a7c-91c7-41c9ae4791a8))
   (pad "32" smd rect (at -1.75 -2.5) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d7e6bc81-eae0-402a-b294-e7a9c514f2b9))
+  (pad "33" thru_hole roundrect (at 1.2 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 09c3aed0-d623-4ef9-a617-435b615f42cc))
+  (pad "33" thru_hole roundrect (at -1.2 -1.2) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 11962c7d-c2e3-47e1-a3f2-b19ca98ad50b))
+  (pad "33" thru_hole roundrect (at -1.2 1.2) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 63bde0ce-a079-49e9-9c2e-64219765236c))
+  (pad "33" thru_hole roundrect (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 6a93fbf3-b77d-4029-ba38-192655a85b21))
+  (pad "33" thru_hole roundrect (at -1.2 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 7e0f7a34-9812-4984-8c2c-e8974e54c5ba))
+  (pad "33" thru_hole roundrect (at 0 -1.2) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 8c2ad7e0-f671-4f04-acc1-1a78e1c9d23c))
+  (pad "33" thru_hole roundrect (at 1.2 1.2) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp 9e1da2d6-f55a-4e4e-b078-70afdf2de0c6))
   (pad "33" smd rect (at 0 0) (size 3.75 3.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b98a0e23-336e-417d-9934-3fea31b62ea0))
+  (pad "33" thru_hole roundrect (at 0 1.2) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp d9783acf-ada6-4f87-87aa-b4948ea8228a))
+  (pad "33" thru_hole roundrect (at 1.2 -1.2) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (roundrect_rratio 0.25) (tstamp e4b3099d-7023-4187-87ec-f82989a83ad9))
   (model "ESP8285.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

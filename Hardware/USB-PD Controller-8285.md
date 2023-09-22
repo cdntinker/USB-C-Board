@@ -19,8 +19,15 @@
 
 # TBD:
 
-Should probably add a reset button.
-
 Indicator LEDs might be handy...
 
 Should see if it'd be usefull to break out any GPIO from the ESP...
+
+* Extra signals to/from the PD Board
+  * RESET
+  * ALERT
+  * ATTACH
+  * POWER_OK2
+  * POWER_OK3
+  * GPIO
+* Maybe indicator LED(s)

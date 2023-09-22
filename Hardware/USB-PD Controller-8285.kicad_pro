@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "via_dangling|90700000|82800000|b28d6382-fe2b-481d-8a20-94edf46d01b3|00000000-0000-0000-0000-000000000000",
+        "via_dangling|90700000|84000000|24b9a7a7-7e48-4699-b9e1-8330cdf11797|00000000-0000-0000-0000-000000000000",
+        "via_dangling|90700000|84100000|24b9a7a7-7e48-4699-b9e1-8330cdf11797|00000000-0000-0000-0000-000000000000",
+        "via_dangling|90900000|80400000|59774f96-ca55-48ae-9e4d-411f21cb69af|00000000-0000-0000-0000-000000000000",
+        "via_dangling|90900000|81200000|f9ef7752-ea29-4a1e-89dd-fef688aff081|00000000-0000-0000-0000-000000000000",
+        "via_dangling|90900000|82000000|a01c47ec-9c6c-4650-9236-677ddda2ff69|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -344,7 +351,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Controller-Tinker.kicad_pro",
+    "filename": "USB-PD Controller-8285.kicad_pro",
     "version": 1
   },
   "net_settings": {
