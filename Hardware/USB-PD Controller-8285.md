@@ -38,6 +38,8 @@ Should see if it'd be usefull to break out any GPIO from the ESP...
 
 For now, each of the PD_*** signals are simply connected to GPIO on the ESP.  More research will determine if this is a good idea or not.
 
+# Rabbit Holes:
+
 One interesting thought that this layout brings up...
 
 This board COULD be used as a general purpose ESP module this way. (Just by repurposing the signals on J7)

@@ -15,17 +15,17 @@ Y1, C3 & C4 are only required for the CH340G & should not be stuffed for the CH3
 
 | Jumper    | Purpose                              | Notes                         |
 | --------- |:------------------------------------:| ------------------------------|
-| JP1       | Supply Vcc (3v3) to Programmer Board |                               |
+| JP1       | Supply Vcc (3v3) to Programmer Board | By defrault, this programmer does NOT power the board being programmed |
 
 # TBD:
 
-~~Well...  
-Now that I have a blinkenlight on TxD/RxD...
-Should do the same for DTR/RTS...
-'Course those are active low...
-...
-...
-...
-wonder if there's a common cathode version of the RGB LEDs I used for TxD/RxD...~~
+~~Well...~~
+~~Now that I have a blinkenlight on TxD/RxD...~~
+~~Should do the same for DTR/RTS...~~
+~~'Course those are active low...~~
+~~...~~
+~~...~~
+~~...~~
+~~wonder if there's a common cathode version of the RGB LEDs I used for TxD/RxD...~~
 
 Chuck it...  Individual LEDs.
