@@ -2,6 +2,10 @@
 
 **WIP**
 
+By default, power for this board is provided on pin 1 of J1.  This is provided from the Programmer Board when flashing the ESP or, possibly, also if communicating with the ESP over USB.
+
+To make this board work without the Programmer board, Ensure that Vsec is 3v3 (i.i.: from the PD Board) & bridge JP1. Note that this will feed 3v3 to J1 instead of pulling power from it.
+
 # Connectors & Jumpers:
 
 | Connector | Purpose                                             | Notes                         |
@@ -13,9 +17,9 @@
 | J7        | Connection to PD Board                              |                               |
 | J10       | Antenna connector                                   | in case WiFi is actually used |
 
-| Jumper    | Purpose                         | Notes                                       |
-| --------- |:-------------------------------:| --------------------------------------------|
-| JP1       | Connect Vcc (3v3) Vsec (J5, J6) | Do NOT bridge unless Vsec is set up for 3v3 |
+| Jumper    | Purpose                            | Notes                                       |
+| --------- |:----------------------------------:| --------------------------------------------|
+| JP1       | Connect Vcc (3v3) to Vsec (J5, J6) | Do NOT bridge unless Vsec is set up for 3v3 |
 
 # TBD:
 
@@ -24,15 +28,16 @@ Indicator LEDs might be handy...
 Should see if it'd be usefull to break out any GPIO from the ESP...
 
 * Extra signals to/from the PD Board
-  * RESET
-  * ALERT
-  * ATTACH
-  * POWER_OK2
-  * POWER_OK3
-  * GPIO
+  * PD_RESET
+  * PD_ALERT
+  * PD_ATTACH
+  * PD_POWER_OK2
+  * PD_POWER_OK3
+  * PD_GPIO
 * Maybe indicator LED(s)
 
-~~Looks like I'm using up all the GPIO...  Might be worth just re-organising the board & making it neater.~~
+For now, each of the PD_*** signals are simply connected to GPIO on the ESP.  More research will determine if this is a good idea or not.
 
-Rabbit-Hole OCD!!!
+One interesting thought that this layout brings up...
 
+This board COULD be used as a general purpose ESP module this way. (Just by repurposing the signals on J7)

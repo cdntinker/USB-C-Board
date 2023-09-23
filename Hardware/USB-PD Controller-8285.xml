@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tinker/Documents/GIT/USB-C Board/Hardware/USB-PD Controller-8285.kicad_sch</source>
-    <date>Fri 22 Sep 2023 05:07:36 PM</date>
+    <date>Sat 23 Sep 2023 05:11:05 PM</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,85 +24,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C2">
-      <value>5.6pf</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C162238</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C162238"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>771c9caa-d60e-4dfd-a605-1bc8d6227692</tstamps>
-    </comp>
-    <comp ref="C3">
-      <value>20pf</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C325469</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C325469"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>30ab8bf5-39b8-44ae-a166-4eb6e2cc77c3</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>20pf</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C325469</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C325469"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2e58d2a2-11d5-4c20-8ec6-fde40abf0630</tstamps>
-    </comp>
-    <comp ref="C5">
-      <value>1uf</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C559769</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C559769"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dd3aca8e-7f28-4d18-b0e6-f55f5e1454ac</tstamps>
-    </comp>
-    <comp ref="C6">
-      <value>1uf</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C559769</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C559769"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3cf6c72c-3d00-4eb6-af3e-f7072449457f</tstamps>
-    </comp>
-    <comp ref="C7">
-      <value>1uf</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C559769</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C559769"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5689783d-ab89-4c34-8489-182724538824</tstamps>
-    </comp>
-    <comp ref="C8">
+    <comp ref="C1">
       <value>22uf</value>
       <footprint>Tinker:CP_EIA-6032-28-Tantalumm_HandSolder</footprint>
       <datasheet>http://datasheets.avx.com/TAJ.pdf</datasheet>
@@ -117,6 +39,84 @@
       <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5c104459-36e5-4950-bac8-f51d6ee510aa</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>5.6pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C162238</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C162238"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>771c9caa-d60e-4dfd-a605-1bc8d6227692</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>20pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C325469</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C325469"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ab8bf5-39b8-44ae-a166-4eb6e2cc77c3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>20pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C325469</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C325469"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e58d2a2-11d5-4c20-8ec6-fde40abf0630</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C559769</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C559769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd3aca8e-7f28-4d18-b0e6-f55f5e1454ac</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C559769</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C559769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cf6c72c-3d00-4eb6-af3e-f7072449457f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C559769</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C559769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5689783d-ab89-4c34-8489-182724538824</tstamps>
     </comp>
     <comp ref="C9">
       <value>1uf</value>
@@ -146,16 +146,30 @@
     </comp>
     <comp ref="J9">
       <value>QWIIC_Stackable</value>
-      <footprint>Tinker:QWIIC_Stackable</footprint>
+      <footprint>Tinker:QWIIC_Stack_II</footprint>
       <fields>
-        <field name="Vendor">LCSC C145956, </field>
+        <field name="LCSC">C145956, C2881513, C2938401</field>
       </fields>
       <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
-      <property name="Vendor" value="LCSC C145956, "/>
+      <property name="LCSC" value="C145956, C2881513, C2938401"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b8e59293-57c0-410d-9624-31545ded5709</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C88373</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="LCSC" value="C88373"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-PD Controller-8285.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>029b3e5a-c445-46a8-9f4d-5907f95d4882</tstamps>
     </comp>
     <comp ref="Q1">
       <value>UMH3N</value>
@@ -223,7 +237,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63aac81d-323a-4a50-b927-17e96bec1664</tstamps>
     </comp>
-    <comp ref="R6">
+    <comp ref="R5">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -236,7 +250,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b3233b19-e869-4733-ad2d-4657193e665a</tstamps>
     </comp>
-    <comp ref="R7">
+    <comp ref="R6">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -429,6 +443,25 @@
         <pin num="2" name="Ext" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable">
       <description>A stackable version of the horizontal QWIIC connector</description>
       <docs>~</docs>
@@ -615,6 +648,9 @@
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/share/kicad/symbols//Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
@@ -630,16 +666,16 @@
   </libraries>
   <nets>
     <net code="1" name="+3V3">
-      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VDDA_1" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="VDDPST_1" pintype="passive"/>
@@ -670,13 +706,13 @@
       <node ref="Q1" pin="5" pinfunction="B2" pintype="input"/>
     </net>
     <net code="7" name="/eXi">
-      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="XTAL_IN" pintype="passive"/>
       <node ref="Y1" pin="3" pinfunction="Xt_2" pintype="passive"/>
     </net>
     <net code="8" name="/eXo">
-      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="27" pinfunction="XTAL_OUT" pintype="passive"/>
       <node ref="Y1" pin="1" pinfunction="Xt_1" pintype="passive"/>
@@ -693,13 +729,14 @@
       <node ref="U1" pin="9" pinfunction="MTMS" pintype="passive"/>
     </net>
     <net code="12" name="GND">
-      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J9" pin="MP" pinfunction="MountPin" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
@@ -709,11 +746,11 @@
     </net>
     <net code="13" name="IO0">
       <node ref="Q1" pin="4" pinfunction="E2" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="GPIO0" pintype="passive"/>
     </net>
     <net code="14" name="IO1">
-      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="U0TXD" pintype="passive"/>
     </net>
     <net code="15" name="IO3">
@@ -755,6 +792,7 @@
     </net>
     <net code="27" name="Net-(C2-Pad2)">
       <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="In" pintype="passive"/>
     </net>
     <net code="28" name="RST">
       <node ref="Q1" pin="6" pinfunction="C1" pintype="passive"/>
