@@ -4,7 +4,7 @@
   (descr "JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
   (tags "connector JST SH top entry")
   (attr smd)
-  (fp_text reference "REF**" (at 0.012102 -3.927381) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 3.158643 -2.390416 180) (layer "F.SilkS")
     (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 52f6ffa9-5c4c-4f56-b597-03a0d6903aa9)
   )
@@ -61,14 +61,19 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left.step"
-    (offset (xyz 0 0 -1.78))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left.step" hide
+    (offset (xyz 0 0 -1.72))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 90))
   )
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical.step" hide
-    (offset (xyz 1.905 0 -1.78))
+    (offset (xyz 1.905 0 -1.72))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))
+  )
+  (model "${KIPRJMOD}/KiCAD Customs/3D/QWIIC_Horizontal-JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.step"
+    (offset (xyz -1.5 2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )

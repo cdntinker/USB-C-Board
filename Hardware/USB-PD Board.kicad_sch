@@ -6,7 +6,7 @@
 
   (title_block
     (title "USB-C (PD) Board")
-    (rev "0.0.9")
+    (rev "0.1.9")
     (company "The Nerd Mage")
     (comment 1 "Set I2C address by cutting 1 or both links in JP5")
     (comment 2 "Cut all 3 links in JP2-JP4 to remove I2C pullups")
@@ -3556,7 +3556,7 @@
     (uuid 31399746-8e56-4d74-b787-07c634e0c687)
     (property "Reference" "J3" (id 0) (at 59.055 97.79 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 59.055 100.33 0))
-    (property "Footprint" "Tinker:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 59.69 102.87 0)
+    (property "Footprint" "Tinker:Board_Stacker_2" (id 2) (at 59.69 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 59.69 102.87 0)
@@ -3769,7 +3769,7 @@
     (uuid 4b9f3ca1-fb99-4af6-a9fd-ecb98c706083)
     (property "Reference" "J4" (id 0) (at 59.055 111.76 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 59.055 114.3 0))
-    (property "Footprint" "Tinker:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 59.69 116.84 0)
+    (property "Footprint" "Tinker:Board_Stacker_2" (id 2) (at 59.69 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 59.69 116.84 0)
@@ -4488,7 +4488,7 @@
     (property "Value" "Conn_01x04_Male" (id 1) (at 58.42 64.77 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Tinker:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 68.58 69.85 0)
+    (property "Footprint" "Tinker:Board_Stacker_4" (id 2) (at 68.58 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 68.58 69.85 0)
@@ -4585,7 +4585,7 @@
     (property "Value" "Conn_01x02_Male" (id 1) (at 83.82 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Tinker:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 92.71 158.75 0)
+    (property "Footprint" "Tinker:Board_Stacker_2" (id 2) (at 92.71 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.71 158.75 0)
@@ -4796,7 +4796,7 @@
     (uuid fb3406f1-7439-4c3c-b07d-423418b2c3c6)
     (property "Reference" "J5" (id 0) (at 92.075 139.7 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 92.075 142.24 0))
-    (property "Footprint" "Tinker:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 92.71 144.78 0)
+    (property "Footprint" "Tinker:Board_Stacker_2" (id 2) (at 92.71 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.71 144.78 0)
@@ -4938,19 +4938,19 @@
       (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "Tinker:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/ce562b82-4d15-4512-9ef8-80a89b06889d"
-      (reference "J2") (unit 1) (value "Conn_01x04_Male") (footprint "Tinker:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x04_Male") (footprint "Tinker:Board_Stacker_4")
     )
     (path "/31399746-8e56-4d74-b787-07c634e0c687"
-      (reference "J3") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:Board_Stacker_2")
     )
     (path "/4b9f3ca1-fb99-4af6-a9fd-ecb98c706083"
-      (reference "J4") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:Board_Stacker_2")
     )
     (path "/fb3406f1-7439-4c3c-b07d-423418b2c3c6"
-      (reference "J5") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:Board_Stacker_2")
     )
     (path "/d2bacdbb-6a99-475b-b165-ccef827277cd"
-      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "Tinker:Board_Stacker_2")
     )
     (path "/83fa4a07-5e65-4e04-a1b2-4b4ecccd45bd"
       (reference "J7") (unit 1) (value "Conn_01x08_Male") (footprint "Tinker:PinHeader_2x04_P1.27mm_Vertical")

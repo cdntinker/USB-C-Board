@@ -26,3 +26,7 @@
 ---
 
 (Yes, I know that J7 on all the boards is a bit of a mongrel...  Workin' on that...)
+
+---
+## 2023/09/26
+Reworked *EVERYTHING* to 1.27mm headers & sockets to make stacking actually work.

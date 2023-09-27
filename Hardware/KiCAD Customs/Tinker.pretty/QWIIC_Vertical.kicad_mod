@@ -54,9 +54,14 @@
   (pad "4" smd roundrect (at 1.5 1.325) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1b25e95c-d109-42e5-9539-1798bf87920b))
   (pad "MP" smd roundrect (at -2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 5cb043bf-fb71-4f5f-a9b4-86ce446c8810))
   (pad "MP" smd roundrect (at 2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 85d1c021-cf8e-48e1-b3fd-12b4fd5ee04d))
-  (model "${KIPRJMOD}/KiCAD Customs/3D/BM04B-SRSS-TB007_vertical_qwiic.step"
+  (model "${KIPRJMOD}/KiCAD Customs/3D/BM04B-SRSS-TB007_vertical_qwiic.step" hide
     (offset (xyz -23.9 35.8 -1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/KiCAD Customs/3D/QWIIC_Vertical-JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step"
+    (offset (xyz 0 -1 0.04))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )
