@@ -32,6 +32,7 @@
   * A placeholder board to make space in the stack for Ethernet jack
 
 There will, from time to time, appear more boards...
+
 ---
 
 (Yes, I know that J7 on all the boards is a bit of a mongrel...  Workin' on that...)
