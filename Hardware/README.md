@@ -1,11 +1,15 @@
-# The __Nerd Mage "Universal" USB-C Board__  Project
+# The NerdMage Rabbit Stack  Project
 
-* 3D
-  * 3D render models & such
-* Early Designs
-  * Just keeping some of these around for future reference...
 * KiCAD Customs
   * Customised symbols, footprints & 3D models for KiCAD
+* 3D
+  * 3D render models & such
+  * (I use FreeCAD here...)
+* `___`
+  * a copy of USB-PD Proto tucked away to make renaming simpler
+  * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
+* Early Designs
+  * Just keeping some of these around for future reference...
 
 ---
 
@@ -22,6 +26,10 @@
 * USB-PD Programmer
   * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins
   * Of course, if you want a more permanent connection, you _could_ populate pins & headers instead of pogos...
+* Ethernet
+  * SPI Ethernet connectivity based on the W5500 chip
+* Ethernet-S
+  * A placeholder board to make space in the stack for Ethernet jack
 
 ---
 

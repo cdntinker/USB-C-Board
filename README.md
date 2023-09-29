@@ -1,6 +1,6 @@
-# The __Nerd Mage "Universal" USB-C Board__  Project
+# The NerdMage Rabbit Stack  Project
 
-**_This project is still a mostly untested WIP._**
+**_This project Will likely ALWAYS be a WIP._**
 
 The basic concept is a USB-C PD-capable power input section for various projects.  The initial board design & format is based on an ongoing project where 34x34mm is the maximum available space for this portion of the design.
 
@@ -10,4 +10,11 @@ Now...
 
 Many rabbit-holes later...
 
-This project is becoming a fairly comprehensive PD client system.
+Many, many rabbit-holes later...
+
+Things may be getting a little out of hand...
+
+---
+
+## 2023/09/29
+Redesignating this repo from "USB-C-Board" to "The NerdMage Rabbit Stack".
