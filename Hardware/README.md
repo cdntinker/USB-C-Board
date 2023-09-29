@@ -33,10 +33,13 @@
 
 There will, from time to time, appear more boards...
 
----
-
+# Some notes about J7
 (Yes, I know that J7 on all the boards is a bit of a mongrel...  Workin' on that...)
 
----
+The purpose of J7 was initially to provide extra control signals between the PD board & the controller board.  As the PD board is managed via I2C, this may be un needed.
+
+If so, then the connector should be available for SPI.  (ATM, The Ethernet board is using it as such.)
+
+# Notes
 ## 2023/09/26
 Reworked *EVERYTHING* to 1.27mm headers & sockets to make stacking actually work.
