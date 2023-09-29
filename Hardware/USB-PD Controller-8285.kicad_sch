@@ -3699,7 +3699,7 @@
     (property "Datasheet" "https://abracon.com/Resonators/abm8.pdf" (id 3) (at 311.785 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "CRYSTAL 25.0000MHZ 20PF SMD" (id 4) (at 311.785 42.545 0)
+    (property "Description" "CRYSTAL 26.0000MHZ 20PF SMD" (id 4) (at 311.785 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Height" "0.8" (id 5) (at 311.785 45.085 0)
