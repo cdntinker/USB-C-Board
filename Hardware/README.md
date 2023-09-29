@@ -33,6 +33,16 @@
 
 There will, from time to time, appear more boards...
 
+## Some future thoughts...
+
+* POE
+* Other MCUs
+* Battery Charger
+* BMS
+* Display driver
+* Inputs...
+* Audio
+
 # Some notes about J7
 (Yes, I know that J7 on all the boards is a bit of a mongrel...  Workin' on that...)
 
