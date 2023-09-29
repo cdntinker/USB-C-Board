@@ -1,4 +1,4 @@
-# The __Nerd Mage "Universal" USB-C Board__  Project
+# The NerdMage Rabbit Stack  Project
 
 No actual firmware in this one.
 

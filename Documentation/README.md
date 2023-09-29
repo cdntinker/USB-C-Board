@@ -1,4 +1,4 @@
-# 1156 Boards
+# The NerdMage Rabbit Stack  Project
 
 Documentation of all sorts.
 
