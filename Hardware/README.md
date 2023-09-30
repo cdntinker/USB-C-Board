@@ -30,12 +30,15 @@
   * SPI Ethernet connectivity based on the W5500 chip
 * Ethernet-S
   * A placeholder board to make space in the stack for Ethernet jack
+* Ethernet-POE-WIP
+  * IEEE802.3af POE based on the Silvertel Ag9900 module
+* Ethernet-POE-S
+  * A placeholder board to make space in the stack for the Ag9900 module
 
 There will, from time to time, appear more boards...
 
 ## Some future thoughts...
 
-* POE
 * Other MCUs
 * Battery Charger
 * BMS

@@ -378,6 +378,10 @@
         "name": "Power",
         "nets": [
           "GND",
+          "VA1",
+          "VA2",
+          "VB1",
+          "VB2",
           "Vin+",
           "Vin-",
           "Vout",
