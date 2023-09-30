@@ -5041,7 +5041,7 @@
   (gr_arc (start 114 83) (mid 116.12132 83.87868) (end 117 86) (layer "Edge.Cuts") (width 0.1) (tstamp dc864dfd-22fa-4019-967e-4ce56822e013))
   (gr_line (start 86 117) (end 114 117) (layer "Edge.Cuts") (width 0.1) (tstamp e062574c-25bd-4fdb-9b4b-eb4eb362e133))
   (gr_arc (start 117 114) (mid 116.12132 116.12132) (end 114 117) (layer "Edge.Cuts") (width 0.1) (tstamp ed05b602-a9aa-43bd-8d32-452f07dc877a))
-  (gr_text "Stacked Rabbits\n${TITLE} (v${REVISION})" (at 100 113) (layer "B.SilkS") (tstamp 05512b4b-2afd-470f-81e3-795cb53a6de2)
+  (gr_text "Stacked Rabbit\n${TITLE} (v${REVISION})" (at 100 113) (layer "B.SilkS") (tstamp 05512b4b-2afd-470f-81e3-795cb53a6de2)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "GND" (at 113.911636 101.079492) (layer "B.SilkS") (tstamp 1f68e5e2-8ba1-4b4f-9d5a-f982a9d777b8)
