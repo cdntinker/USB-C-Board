@@ -36,7 +36,9 @@
   * A placeholder board to make space in the stack for the Ag9900 module
 * Random Vreg
   * Just a random voltage regulator board
-
+* RP2040
+  * Workin' on an RP2040-based controller board
+  
 There will, from time to time, appear more boards...
 
 ## Some future thoughts...

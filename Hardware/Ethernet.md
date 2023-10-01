@@ -10,7 +10,6 @@
 | J5, J6    | Secondary output voltage       | Fed through from the rest of the stack |
 | J7        | Connection to Controller Board | On this board: both SPI & I2C          |
 | J9        | QWIIC I2C connection           | Not actually used here                 |
-| RJ45-1    | The Ethernet connection        |                                        |
 
 # TBD:
 
