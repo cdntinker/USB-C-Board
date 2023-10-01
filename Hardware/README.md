@@ -34,6 +34,8 @@
   * IEEE802.3af POE based on the Silvertel Ag9900 module
 * Ethernet-POE-S
   * A placeholder board to make space in the stack for the Ag9900 module
+* Random Vreg
+  * Just a random voltage regulator board
 
 There will, from time to time, appear more boards...
 
