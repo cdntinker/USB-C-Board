@@ -38,6 +38,9 @@
   * Just a random voltage regulator board
 * RP2040
   * Workin' on an RP2040-based controller board
+* Tarduino Clone
+  * An Atmega328-based controller board
+  * (roughly based on an Arduino Pro-mini)
   
 There will, from time to time, appear more boards...
 
