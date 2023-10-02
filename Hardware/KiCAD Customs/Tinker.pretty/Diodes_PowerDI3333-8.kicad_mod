@@ -74,12 +74,7 @@
           (xy 1.395 -1.185)
         ) (width 0) (fill yes))
     ) (tstamp 3f06de15-7d25-463b-b9c4-5a45fae83cc0))
-  (model "${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/Diodes_PowerDI3333-8.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/tinker/Documents/GIT/USB-C Board/Hardware/KiCAD Customs/3D/DMP3013SFV-7.stp"
+  (model "${KIPRJMOD}/KiCAD Customs/3D/DMP3013SFV-7.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 90))

@@ -4403,7 +4403,7 @@
       (net 27 "RST") (pinfunction "Pin_7") (pintype "passive") (tstamp 24124d71-65ef-4046-8f6b-c308dff8b69c))
     (pad "7" thru_hole oval (at 0 7.62 90) (size 1 1) (drill 0.65) (layers *.Cu *.Mask)
       (net 27 "RST") (pinfunction "Pin_7") (pintype "passive") (tstamp ee1c8d4b-a23e-4939-b4c6-45840c0ae4ec))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x07_P1.27mm_Vertical.step"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x07_P1.27mm_Vertical.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4560,7 +4560,7 @@
       (net 3 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 7ed82aad-b544-4953-93cc-0e20e1fe9099))
     (pad "4" smd rect (at -1.35 3.81 270) (size 1.8 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 3 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp c7e0c92c-de81-46e4-a0f9-e767eab983f5))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
