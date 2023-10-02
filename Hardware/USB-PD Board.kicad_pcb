@@ -178,7 +178,7 @@
 
   (footprint "Tinker:NerdMage" (layer "F.Cu")
     (tedit 0) (tstamp 0512b02d-1336-4302-895c-06d7a8467021)
-    (at 93 85.9)
+    (at 91 86)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 3.81) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -994,7 +994,7 @@
 
   (footprint "Tinker:DagNabbit" (layer "F.Cu")
     (tedit 0) (tstamp 2eb89b1a-e457-49ba-ba1a-c5fb0c54345a)
-    (at 107 86.5)
+    (at 109 87)
     (attr smd board_only)
     (fp_text reference "REF**" (at 0 -8.08 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
