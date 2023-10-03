@@ -61,6 +61,13 @@ The purpose of J7 was initially to provide extra control signals between the PD 
 
 If so, then the connector should be available for SPI.  (ATM, The Ethernet board is using it as such.)
 
+## A note about using SPI on J7
+As SPI requires a separate select line (SCS) for each SPI device, this means that you can only have a single SPI device.  I am currently thinking about the idea of eliminating DEV-IO on pin 7 & designing some sort of 2-bit selection system using pins 7 & 8.
+
+Another option might be to enforce placement of the feedthrough headers for J9 instead of copying I2C into J7.  This would give an option of a 3 or 4 bit selection system.
+
+Must still put more thought into this...
+
 # Notes
 ## 2023/09/26
 Reworked *EVERYTHING* to 1.27mm headers & sockets to make stacking actually work.
