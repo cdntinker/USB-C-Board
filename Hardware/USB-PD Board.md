@@ -32,3 +32,6 @@ Need to find a spot for another LED...
 Driven by VBUS_EN_SNK (pin 16) to indicate when Vout is enabled.
 
 Not entirely certain that D7-D10 are useful...
+
+## 2023/10/03
+Removed ATTACH, POWER_OK2, POWER_OK3, & ALERT from J7

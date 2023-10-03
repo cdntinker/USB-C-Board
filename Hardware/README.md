@@ -64,3 +64,6 @@ If so, then the connector should be available for SPI.  (ATM, The Ethernet board
 # Notes
 ## 2023/09/26
 Reworked *EVERYTHING* to 1.27mm headers & sockets to make stacking actually work.
+
+## 2023/10/03
+Changing J7 to dedicated I2C + SPI interface (well... Plus device reset & possibly 1 spare I/O...)
