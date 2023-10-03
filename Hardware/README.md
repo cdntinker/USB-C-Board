@@ -51,6 +51,7 @@ There will, from time to time, appear more boards...
 * BMS
 * Display driver
 * Inputs...
+* I/O expansion
 * Audio
 
 # Some notes about J7
