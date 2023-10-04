@@ -102,11 +102,6 @@
   (pad "6" thru_hole circle (at 16.11 -11.38) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask) (tstamp c1f25e2a-d392-4c15-a677-e2b35ba52b86))
   (pad "7" thru_hole circle (at 2.54 -11.38) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask) (tstamp cfbc80ef-3460-4d09-8bfb-4a835711529e))
   (pad "8" thru_hole circle (at 0 -11.38) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask) (tstamp fd871e8f-efe4-4418-8842-170f1a28d92a))
-  (model "${KIPRJMOD}/KiCAD Customs/3D/Ag9912LP.stp" hide
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model "${KIPRJMOD}/KiCAD Customs/3D/Ag9900LP.step"
     (offset (xyz -1.27 -1.27 1.6))
     (scale (xyz 1 1 1))
