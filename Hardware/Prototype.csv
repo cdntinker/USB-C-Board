@@ -1,0 +1,7 @@
+"Component Count:","7"
+" "
+"Ref","Qnty","Cmp name","Value","LCSC","DigiKey","Footprint","Description"
+"J2, ","1","Conn_01x04_Male","Conn_01x04_Male","C2938401 + C2881513","","Tinker:Board_Stacker_4","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J3, J4, J5, J6, ","4","Conn_01x02_Male","Conn_01x02_Male","C2938400 + C2881511","","Tinker:Board_Stacker_2","Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J7, ","1","Conn_01x08_Male","Conn_01x08_Male","C2881786 + C2684732","","Tinker:PinHeader_2x04_P1.27mm_Vertical","Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J9, ","1","QWIIC_Stackable","QWIIC_Stackable","C145956 + C2938401 + C2881513","","Tinker:QWIIC_Stack_II","A stackable version of the horizontal QWIIC connector"

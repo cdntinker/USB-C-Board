@@ -6,7 +6,7 @@
   * 3D render models & such
   * (I use FreeCAD here...)
 * `___`
-  * a copy of USB-PD Proto tucked away to make renaming simpler
+  * a copy of Prototype tucked away to make renaming simpler
   * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
 * Early Designs
   * Just keeping some of these around for future reference...
@@ -24,7 +24,7 @@
 * USB-PD Controller-8285
   * A controller to tell the USB-PD Board what to request from the source.
   * (This one could also become a general usage ESP board... hhhmmm...)
-* USB-PD Proto
+* Prototype
   * Just a blank board with footprints in place to match up with the others.
 * USB-PD Programmer
   * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins

@@ -6,7 +6,7 @@
 
   (title_block
     (title "USB-C (PD) Board")
-    (rev "0.1.9")
+    (rev "0.2.9")
     (company "The Nerd Mage")
     (comment 1 "Set I2C address by cutting 1 or both links in JP5")
     (comment 2 "Cut all 3 links in JP2-JP4 to remove I2C pullups")

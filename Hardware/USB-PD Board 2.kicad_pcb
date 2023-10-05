@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "USB-PD Board")
-    (rev "0.1.9")
+    (rev "0.2.9")
     (company "The Nerd Mage")
   )
 
