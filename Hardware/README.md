@@ -18,6 +18,9 @@
   * This board talks to the USB-C PD source & tells it what voltage/current is needed.
   * Options have been left in to just populate for non-PD usage as well.
   * It also contains a 3v3 regulator to either drive the controller board or supply your project.
+* USB-PD Board 2
+  * An attempt at fixing J7... (See the notes below)
+    * Switching J7 to just SPI
 * USB-PD Controller-8285
   * A controller to tell the USB-PD Board what to request from the source.
   * (This one could also become a general usage ESP board... hhhmmm...)
