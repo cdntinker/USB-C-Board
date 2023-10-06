@@ -28,7 +28,7 @@
 * Controller-8285
   * A controller to tell the USB-PD Board what to request from the source.
   * (This one could also become a general usage ESP board... hhhmmm...)
-* -- USB-PD Programmer
+* Programmer
   * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins
   * Of course, if you want a more permanent connection, you _could_ populate pins & headers instead of pogos...
 * -- Ethernet
