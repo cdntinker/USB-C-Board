@@ -13,7 +13,7 @@
 
 ---
 
-** Any board listed with -- at the start has not yet been updated to the new J7/J9 usage... **
+**Any board listed with -- at the start has not yet been updated to the new J7/J9 usage...**
 
 * -- USB-PD Board
   * The Power Delivery Sink board
