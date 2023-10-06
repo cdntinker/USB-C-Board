@@ -33,11 +33,11 @@
   * Of course, if you want a more permanent connection, you _could_ populate pins & headers instead of pogos...
 * -- Ethernet
   * SPI Ethernet connectivity based on the W5500 chip
-* -- Ethernet-S
+* Ethernet-Spacer
   * A placeholder board to make space in the stack for Ethernet jack
 * -- Ethernet-POE-WIP
   * IEEE802.3af POE based on the Silvertel Ag9900 module
-* -- Ethernet-POE-S
+* POE Spacer
   * A placeholder board to make space in the stack for the Ag9900 module
 * -- Random Vreg
   * Just a random voltage regulator board
