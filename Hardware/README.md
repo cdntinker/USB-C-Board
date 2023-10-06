@@ -13,7 +13,9 @@
 
 ---
 
-* USB-PD Board
+** Any board listed with -- at the start has not yet been updated to the new J7/J9 usage... **
+
+* -- USB-PD Board
   * The Power Delivery Sink board
   * This board talks to the USB-C PD source & tells it what voltage/current is needed.
   * Options have been left in to just populate for non-PD usage as well.
@@ -21,27 +23,27 @@
 * USB-PD Board 2
   * An attempt at fixing J7... (See the notes below)
     * Switching J7 to just SPI
-* USB-PD Controller-8285
-  * A controller to tell the USB-PD Board what to request from the source.
-  * (This one could also become a general usage ESP board... hhhmmm...)
 * Prototype
   * Just a blank board with footprints in place to match up with the others.
-* USB-PD Programmer
+* Controller-8285
+  * A controller to tell the USB-PD Board what to request from the source.
+  * (This one could also become a general usage ESP board... hhhmmm...)
+* -- USB-PD Programmer
   * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins
   * Of course, if you want a more permanent connection, you _could_ populate pins & headers instead of pogos...
-* Ethernet
+* -- Ethernet
   * SPI Ethernet connectivity based on the W5500 chip
-* Ethernet-S
+* -- Ethernet-S
   * A placeholder board to make space in the stack for Ethernet jack
-* Ethernet-POE-WIP
+* -- Ethernet-POE-WIP
   * IEEE802.3af POE based on the Silvertel Ag9900 module
-* Ethernet-POE-S
+* -- Ethernet-POE-S
   * A placeholder board to make space in the stack for the Ag9900 module
-* Random Vreg
+* -- Random Vreg
   * Just a random voltage regulator board
-* RP2040
+* -- RP2040
   * Workin' on an RP2040-based controller board
-* Tarduino Clone
+* -- Tarduino Clone
   * An Atmega328-based controller board
   * (roughly based on an Arduino Pro-mini)
   
