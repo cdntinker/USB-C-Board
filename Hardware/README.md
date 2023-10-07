@@ -6,8 +6,11 @@
   * 3D render models & such
   * (I use FreeCAD here...)
 * `___`
-  * a copy of Prototype tucked away to make renaming simpler
-  * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
+  * **Prototype.***
+    * a copy of Prototype tucked away to make renaming simpler
+    * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
+  * **zzzzzz.kicad_pcb**
+    A silkscreen layout aid
 * Early Designs
   * Just keeping some of these around for future reference...
 
@@ -15,14 +18,11 @@
 
 **Any board listed with -- at the start has not yet been updated to the new J7/J9 usage...**
 
-* -- USB-PD Board
+* USB-PD Board
   * The Power Delivery Sink board
   * This board talks to the USB-C PD source & tells it what voltage/current is needed.
   * Options have been left in to just populate for non-PD usage as well.
   * It also contains a 3v3 regulator to either drive the controller board or supply your project.
-* USB-PD Board 2
-  * An attempt at fixing J7... (See the notes below)
-    * Switching J7 to just SPI
 * Prototype
   * Just a blank board with footprints in place to match up with the others.
 * Controller-8285
