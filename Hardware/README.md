@@ -10,7 +10,7 @@
     * a copy of Prototype tucked away to make renaming simpler
     * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
   * **zzzzzz.kicad_pcb**
-    A silkscreen layout aid
+    * A silkscreen layout aid
 * Early Designs
   * Just keeping some of these around for future reference...
 
@@ -18,35 +18,37 @@
 
 **Any board listed with -- at the start has not yet been updated to the new J7/J9 usage...**
 
-* USB-PD Board
+* **Prototype**
+  * Just a blank board with footprints in place to match up with the others.
+* **USB-PD Board**
   * The Power Delivery Sink board
   * This board talks to the USB-C PD source & tells it what voltage/current is needed.
   * Options have been left in to just populate for non-PD usage as well.
   * It also contains a 3v3 regulator to either drive the controller board or supply your project.
-* Prototype
-  * Just a blank board with footprints in place to match up with the others.
-* Controller-8285
+* **Controller-8285**
   * A controller to tell the USB-PD Board what to request from the source.
   * (This one could also become a general usage ESP board... hhhmmm...)
-* Programmer
-  * A CH340-based programmer board intended to sit on top of _USB-PD Controller-8285_ using pogo pins
-  * Of course, if you want a more permanent connection, you _could_ populate pins & headers instead of pogos...
-* -- Ethernet
-  * SPI Ethernet connectivity based on the W5500 chip
-* Ethernet-Spacer
-  * A placeholder board to make space in the stack for Ethernet jack
-* -- Ethernet-POE-WIP
-  * IEEE802.3af POE based on the Silvertel Ag9900 module
-* POE Spacer
-  * A placeholder board to make space in the stack for the Ag9900 module
-* -- Random Vreg
-  * Just a random voltage regulator board
 * -- RP2040
   * Workin' on an RP2040-based controller board
 * -- Tarduino Clone
   * An Atmega328-based controller board
   * (roughly based on an Arduino Pro-mini)
-  
+* **Programmer**
+  * A CH340-based programmer board intended to sit on top of _Controller-8285_ or _Tarduino Clone_
+* -- Ethernet
+  * SPI Ethernet connectivity based on the W5500 chip
+* **Ethernet-Spacer**
+  * A placeholder board to make space in the stack for Ethernet jack
+* -- Ethernet-POE-WIP
+  * IEEE802.3af POE based on the Silvertel Ag9900 module
+* **POE Spacer**
+  * A placeholder board to make space in the stack for the Ag9900 module
+* **Random Vreg**
+  * Just a random voltage regulator board
+  * Proof of concept really...
+  * **Currently, probably a bad idea to stack with the _USB-PD Board_**
+    * (one of the regulators feeds Vsec...)
+
 There will, from time to time, appear more boards...
 
 ## Some future thoughts...
@@ -58,6 +60,7 @@ There will, from time to time, appear more boards...
 * Inputs...
 * I/O expansion
 * Audio
+* etc...etc...etc...
 
 # Some notes about J7
 (Yes, I know that J7 on all the boards is a bit of a mongrel...  Workin' on that...)

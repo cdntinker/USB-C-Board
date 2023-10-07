@@ -377,6 +377,7 @@
         "microvia_drill": 0.1,
         "name": "POWER",
         "nets": [
+          "/Vrnd",
           "Vout",
           "Vsec"
         ],
