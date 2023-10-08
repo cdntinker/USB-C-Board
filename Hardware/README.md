@@ -11,8 +11,6 @@
     * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
   * **zzzzzz.kicad_pcb**
     * A silkscreen layout aid
-* Early Designs
-  * Just keeping some of these around for future reference...
 
 ---
 

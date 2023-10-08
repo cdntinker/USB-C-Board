@@ -14,7 +14,7 @@ With the PCA9557BS I/O expander, you can control which Vrnd output(s) are on & o
 | J2        | USB 2.0 pass through (from PD Board)                |                               |
 | J3, J4    | PD output voltage (from PD Board)                   |                               |
 | J5, J6    | Secondary output voltage (from PD Board)            |                               |
-| J7        | SPI connection                                      |                               |
+| J7        | SPI connection                                      | Not actually used here        |
 | J9        | I2C connection                                      |                               |
 | J10       | Output of Vreg0                                     |                               |
 | J11       | Output of Vreg1                                     |                               |
