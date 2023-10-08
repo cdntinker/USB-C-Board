@@ -344,7 +344,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Random Vreg.kicad_pro",
+    "filename": "Random Vreg (copy).kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -377,7 +377,9 @@
         "microvia_drill": 0.1,
         "name": "POWER",
         "nets": [
-          "/Vrnd",
+          "/Vrnd0",
+          "/Vrnd1",
+          "/Vrnd2",
           "Vout",
           "Vsec"
         ],

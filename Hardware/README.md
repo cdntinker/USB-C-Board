@@ -46,8 +46,6 @@
 * **Random Vreg**
   * Just a random voltage regulator board
   * Proof of concept really...
-  * **Currently, probably a bad idea to stack with the _USB-PD Board_**
-    * (one of the regulators feeds Vsec...)
 
 There will, from time to time, appear more boards...
 
