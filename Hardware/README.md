@@ -28,7 +28,7 @@
   * (This one could also become a general usage ESP board... hhhmmm...)
 * **Controller-RP2040**
   * Workin' on an RP2040-based controller board
-* -- Tarduino Clone
+* **Controller-Tarduino Clone**
   * An Atmega328-based controller board
   * (roughly based on an Arduino Pro-mini)
 * **Programmer**

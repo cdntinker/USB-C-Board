@@ -8,14 +8,15 @@ To make this board work without the Programmer board, Ensure that Vsec is 3v3 (i
 
 # Connectors & Jumpers:
 
-| Connector | Purpose                                             | Notes                         |
-| --------- |:---------------------------------------------------:| ------------------------------|
-| J1        | Programming connections (from Programmer Board)     |                               |
-| J2        | USB 2.0 pass through (possibly TO Programmer Board) |                               |
-| J3, J4    | PD output voltage (from PD Board)                   | Not actually used here        |
-| J5, J6    | Secondary output voltage (from PD Board)            | See jumper JP1                |
-| J7        | Connection to PD Board                              |                               |
-| J10       | Antenna connector                                   | in case WiFi is actually used |
+| Connector | Purpose                                         | Notes                         |
+| --------- |:-----------------------------------------------:| ------------------------------|
+| J1        | Programming connections (from Programmer Board) |                               |
+| J2        | USB 2.0 pass through                            |                               |
+| J3, J4    | PD/POE output voltage                           | Not actually used here        |
+| J5, J6    | Secondary output voltage                        | See jumper JP1                |
+| J7        | SPI Connection                                  |                               |
+| J9        | I2C connection                                  |                               |
+| J10       | Antenna connector                               | in case WiFi is actually used |
 
 | Jumper    | Purpose                            | Notes                                       |
 | --------- |:----------------------------------:| --------------------------------------------|
