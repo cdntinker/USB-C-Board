@@ -26,7 +26,7 @@
 * **Controller-8285**
   * A controller to tell the USB-PD Board what to request from the source.
   * (This one could also become a general usage ESP board... hhhmmm...)
-* -- RP2040
+* **Controller-RP2040**
   * Workin' on an RP2040-based controller board
 * -- Tarduino Clone
   * An Atmega328-based controller board
