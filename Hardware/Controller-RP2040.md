@@ -2,7 +2,13 @@
 
 **WIP** 
 
+So far, this board has no default power.
+
+To make this board powered from the stack, Ensure that Vsec is 3v3 (i.e.: from the PD Board) & bridge JP1.
+
 **WIP** 
+
+Might be handy to put a little (optional) VREG local to this board but I suspect it'd need to be smaller than the R1501 circuit used elsewhere in this project.
 
 **WIP** 
 

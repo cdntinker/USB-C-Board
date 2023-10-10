@@ -2,7 +2,13 @@
 
 **WIP** 
 
+By default, power for this board is provided on pin 1 of J1.  This is provided from the Programmer Board when flashing the Atmega or, possibly, also if communicating with the Atmega over USB.
+
+To make this board work without the Programmer board, Ensure that Vsec is 3v3 (i.e.: from the PD Board) & bridge JP1. Note that this will feed 3v3 to J1 instead of pulling power from it.
+
 **WIP** 
+
+Might be handy to put a little (optional) VREG local to this board but I suspect it'd need to be smaller than the R1501 circuit used elsewhere in this project.
 
 **WIP** 
 

@@ -4,7 +4,7 @@
 
 By default, power for this board is provided on pin 1 of J1.  This is provided from the Programmer Board when flashing the ESP or, possibly, also if communicating with the ESP over USB.
 
-To make this board work without the Programmer board, Ensure that Vsec is 3v3 (i.i.: from the PD Board) & bridge JP1. Note that this will feed 3v3 to J1 instead of pulling power from it.
+To make this board work without the Programmer board, Ensure that Vsec is 3v3 (i.e.: from the PD Board) & bridge JP1. Note that this will feed 3v3 to J1 instead of pulling power from it.
 
 # Connectors & Jumpers:
 
