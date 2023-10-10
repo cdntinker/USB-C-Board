@@ -33,7 +33,7 @@
   * (roughly based on an Arduino Pro-mini)
 * **Programmer**
   * A CH340-based programmer board intended to sit on top of _Controller-8285_ or _Tarduino Clone_
-* -- Ethernet
+* **Ethernet**
   * SPI Ethernet connectivity based on the W5500 chip
 * **Ethernet-Spacer**
   * A placeholder board to make space in the stack for Ethernet jack

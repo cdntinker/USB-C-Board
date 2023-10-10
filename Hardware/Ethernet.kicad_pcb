@@ -5228,7 +5228,7 @@
   (gr_text "~{SCS}" (at 83.347793 103.30044) (layer "F.SilkS") (tstamp 6cd9b76f-a5d0-43b6-b8a6-36d2002e6fb7)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left))
   )
-  (gr_text "${TITLE} Board" (at 110 100 90) (layer "F.SilkS") (tstamp 821ea912-ca66-4b5e-af5f-2cf2c36e29fe)
+  (gr_text "${TITLE} Board" (at 110 102 90) (layer "F.SilkS") (tstamp 821ea912-ca66-4b5e-af5f-2cf2c36e29fe)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "I2C" (at 83.8 93 -90) (layer "F.SilkS") (tstamp 94d99202-e148-4681-835d-205cf6d64f7e)
