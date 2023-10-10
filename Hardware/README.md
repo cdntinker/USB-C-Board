@@ -14,8 +14,6 @@
 
 ---
 
-**Any board listed with -- at the start has not yet been updated to the new J7/J9 usage...**
-
 * **Prototype**
   * Just a blank board with footprints in place to match up with the others.
 * **USB-PD Board**
