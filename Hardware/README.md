@@ -37,7 +37,7 @@
   * SPI Ethernet connectivity based on the W5500 chip
 * **Ethernet-Spacer**
   * A placeholder board to make space in the stack for Ethernet jack
-* -- Ethernet-POE-WIP
+* **POE**
   * IEEE802.3af POE based on the Silvertel Ag9900 module
 * **POE Spacer**
   * A placeholder board to make space in the stack for the Ag9900 module

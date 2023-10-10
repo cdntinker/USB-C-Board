@@ -17,6 +17,10 @@
 | J7        | SPI Connection                                  |                               |
 | J9        | I2C connection                                  |                               |
 
+| Jumper    | Purpose                            | Notes                                       |
+| --------- |:----------------------------------:| --------------------------------------------|
+| JP1       | Connect Vcc (3v3) to Vsec (J5, J6) | Do NOT bridge unless Vsec is set up for 3v3 |
+
 # TBD:
 
 This is JUST BARELY started
