@@ -11,6 +11,8 @@
     * (rename the files inside the folder, then ***COPY*** them out to the Hardware folder)
   * **zzzzzz.kicad_pcb**
     * A silkscreen layout aid
+  * **zzzzzz.kicad_sch**
+    * A schematic layout aid
 
 ---
 
