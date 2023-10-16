@@ -45,6 +45,9 @@
   * Just a random voltage regulator board
   * Proof of concept really...
   * But then again...
+* **USB Hub**
+  * A 3-port USB Hub based on the TUSB2036
+  * Downstream port 1 is set up to feed next board up in the stack.
 
 There will, from time to time, appear more boards...
 
