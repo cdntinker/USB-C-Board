@@ -306,7 +306,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
     )
-    (model "${KIPRJMOD}/KiCAD Customs/3D/QWIIC_Horizontal-JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.step"
+    (model "${KIPRJMOD}/KiCAD Customs/3D/QWIIC_Horizontal-JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.step" hide
       (offset (xyz -1.5 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))

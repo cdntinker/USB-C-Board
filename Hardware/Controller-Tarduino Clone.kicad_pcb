@@ -461,7 +461,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left.step" hide
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Left.step"
       (offset (xyz 0 0 -1.78))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -180 90))
