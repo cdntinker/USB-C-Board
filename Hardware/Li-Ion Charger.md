@@ -1,6 +1,7 @@
 # Notes:
 
 Based on battery charger by Austins Creations
+
 # Connectors & Jumpers:
 
 | Connector | Purpose                                             | Notes                         |
@@ -10,8 +11,9 @@ Based on battery charger by Austins Creations
 | J5, J6    | Secondary output voltage (from PD Board)            | Pass thru                     |
 | J7        | SPI connection                                      | Not actually used here        |
 | J9        | I2C connection                                      |                               |
-| J10       | Output from Battery                                 |                               |
+| J10       | Output for load                                     |                               |
 | J11       | For connection to BMS board                         |                               |
 
 # TBD:
-Have not yet actually done the BMS (Which has the actuall connection to the battery...)
+
+J10 either on this board or the BMS board needs to change to something different.
