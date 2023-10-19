@@ -48,6 +48,8 @@
 * **USB Hub**
   * A 3-port USB Hub based on the TUSB2036
   * Downstream port 1 is set up to feed next board up in the stack.
+* **Li-Ion Charger**
+  * A 2s lithium battery charger
 
 There will, from time to time, appear more boards...
 
