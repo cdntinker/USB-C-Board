@@ -14,6 +14,11 @@ Based on battery charger by Austins Creations
 | J10       | Output for load                                     |                               |
 | J11       | For connection to BMS board                         |                               |
 
+| Jumper    | Purpose                                | Notes                                      |
+| --------- |:--------------------------------------:| -------------------------------------------|
+| JP1       | Connect Vload to the Vsec connectors   |                                            |
+| JP2       | Connect Vload to the Vout connectors   |                                            |
+
 # TBD:
 
 J10 either on this board or the BMS board needs to change to something different.
