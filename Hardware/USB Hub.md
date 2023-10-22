@@ -21,3 +21,6 @@
 
 # TBD:
 
+Needs a 3v3 supply.
+Still needs an oscillator or crystal.
+
