@@ -8,6 +8,8 @@ Being configured in "Bus Powered" mode, each downstream USB should be limited to
 
 This particular design does NOT have overcurrent protection built in ATM...
 
+There is no transient suppression so far either...
+
 Pads of J11 & J12 next to mounting holes are problematic. During assembly, care must be taken to avoid solder buildup on these 2 pads to avoid interferance with mounting.
 
 # Connectors & Jumpers:
@@ -23,10 +25,13 @@ Pads of J11 & J12 next to mounting holes are problematic. During assembly, care 
 | J11       | Downstream USB 2.0 Port 2              |                                            |
 | J12       | Downstream USB 2.0 Port 3              |                                            |
 
-| Jumper    | Purpose                                | Notes                                      |
-| --------- |:--------------------------------------:| -------------------------------------------|
-|           |                                        |                                            |
-
 # TBD:
 
+## Overcurrent Protection
 Look at TPS2550 for overcurrent protection. (USB Hub2 is a version with overcurrent being implimented...)
+
+## Transient Suppression
+Maybe find space for a pair of PGB1010603s per port...
+
+## Self Powered Mode
+Would need a 5V 1500mA source. (Maybe through Vsec?)
