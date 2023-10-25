@@ -35,7 +35,9 @@ Pads of J11 & J12 next to mounting holes are problematic. During assembly, care 
 # TBD:
 
 ## Overcurrent Protection
-Look at TPS2550 for overcurrent protection. (USB Hub2 is a version with overcurrent being implimented...)
+Look at TPS2550 for overcurrent protection.
+
+USB Hub2 is a version with overcurrent being implimented...
 
 ## Self Powered Mode
 Would need a 5V 1500mA source. (Maybe through Vsec?)
@@ -47,4 +49,4 @@ Current experiment:  cut & reconfig JP1 AND JP2 for power from Vsec.  Also, repl
 ## Transient Suppression
 Maybe find space for a pair of PGB1010603s per port...
 
-USB Hub2 has them on all 3 downstream ports.  :p
+USB Hub2 has them on all 4 ports.  :p
