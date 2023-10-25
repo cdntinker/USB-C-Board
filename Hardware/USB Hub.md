@@ -46,3 +46,5 @@ Current experiment:  cut & reconfig JP1 AND JP2 for power from Vsec.  Also, repl
 
 ## Transient Suppression
 Maybe find space for a pair of PGB1010603s per port...
+
+USB Hub2 has them on all 3 downstream ports.  :p
