@@ -4,8 +4,6 @@
 
 U2 is maximum 6V input...  So be careful not to do higher voltage from PD.
 
-Being configured in "Bus Powered" mode, each downstream USB should be limited to 100mA.
-
 This particular design does NOT have overcurrent protection built in ATM...
 
 There is no transient suppression so far either...
@@ -39,8 +37,10 @@ Look at TPS2550 for overcurrent protection.
 
 USB Hub2 is a version with overcurrent being implimented...
 
-## Self Powered Mode
-Would need a 5V 1500mA source. (Maybe through Vsec?)
+## Self Powered Mode vs. Bus Powered Mode
+By default, this is configured in "Bus Powered" mode, each downstream USB should be limited to 100mA.
+
+Self Powered Mode needs a 5V 1500mA source. (Maybe through Vsec?)
 
 Again... USB Hub2...
 
