@@ -20,3 +20,6 @@ Things may be getting a little out of hand...
 
 ## 2023/09/29
 Redesignating this repo from "USB-C-Board" to "The NerdMage Rabbit Stack".
+
+## 2024/03/01
+Re-arranging the hardware files for better clarity.
